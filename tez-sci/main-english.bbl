@@ -1,0 +1,765 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{alenezi2017}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=557e252124b125045a90f7001cbf8c16}{%
+           family={Alenezi},
+           familyi={A\bibinitperiod},
+           given={Mamdouh},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a8d7e5a0aa449bdf50ab42c50e27634e}{%
+           family={Almomani},
+           familyi={A\bibinitperiod},
+           given={Iman},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{9e0882cf02acdeea2b4480c93c489797}
+      \strng{fullhash}{9e0882cf02acdeea2b4480c93c489797}
+      \strng{bibnamehash}{9e0882cf02acdeea2b4480c93c489797}
+      \strng{authorbibnamehash}{9e0882cf02acdeea2b4480c93c489797}
+      \strng{authornamehash}{9e0882cf02acdeea2b4480c93c489797}
+      \strng{authorfullhash}{9e0882cf02acdeea2b4480c93c489797}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE Jordan Conference on Applied Electrical Engineering and Computing Technologies (AEECT)}
+      \field{title}{Abusing Android permissions: A security perspective}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{alepis2017}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=213cde5fc52fcee806ffb7f02131b278}{%
+           family={Alepis},
+           familyi={A\bibinitperiod},
+           given={Efthimios},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fb25a705ecb4db067d80a1f025858e97}{%
+           family={Patsakis},
+           familyi={P\bibinitperiod},
+           given={Constantinos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{b9bc7dc72f82700b7efda8f5b5740202}
+      \strng{fullhash}{b9bc7dc72f82700b7efda8f5b5740202}
+      \strng{bibnamehash}{b9bc7dc72f82700b7efda8f5b5740202}
+      \strng{authorbibnamehash}{b9bc7dc72f82700b7efda8f5b5740202}
+      \strng{authornamehash}{b9bc7dc72f82700b7efda8f5b5740202}
+      \strng{authorfullhash}{b9bc7dc72f82700b7efda8f5b5740202}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Security, Privacy, and Applied Cryptography Engineering}
+      \field{title}{Hey doc, is this normal?: exploring android permissions in the post marshmallow era}
+      \field{year}{2017}
+      \field{pages}{53\bibrangedash 73}
+      \range{pages}{21}
+    \endentry
+    \entry{barrera2010}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=c292d078989c3e4c0f33b0e893b6eb94}{%
+           family={Barrera},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=788c178d0bd89d24942140023eb0ac63}{%
+           family={Kayacik},
+           familyi={K\bibinitperiod},
+           given={H\bibnamedelima Güneş},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=2b4f1742af51254687b3507ccb544769}{%
+           family={Van\bibnamedelima Oorschot},
+           familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Paul\bibnamedelima C},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1789a11a791e330190b42ecd41aa6867}{%
+           family={Somayaji},
+           familyi={S\bibinitperiod},
+           given={Anil},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{54388e1398e7f29dfbab33fa8ca5503a}
+      \strng{fullhash}{ace26dead8d6ddf29b1a8d60329968d7}
+      \strng{bibnamehash}{ace26dead8d6ddf29b1a8d60329968d7}
+      \strng{authorbibnamehash}{ace26dead8d6ddf29b1a8d60329968d7}
+      \strng{authornamehash}{54388e1398e7f29dfbab33fa8ca5503a}
+      \strng{authorfullhash}{ace26dead8d6ddf29b1a8d60329968d7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 17th ACM conference on Computer and communications security}
+      \field{title}{A methodology for empirical analysis of permission-based security models and its application to android}
+      \field{year}{2010}
+      \field{pages}{73\bibrangedash 84}
+      \range{pages}{12}
+    \endentry
+    \entry{fang2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=dfeba4abf72296fc8a272bd6b5b5cca1}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Zheran},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=483751a98e7516c62322ffc02ddcd0f5}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Weili},
+           giveni={W\bibinitperiod}}}%
+        {{hash=5ea5c8fa2a24693c3fb36a24e333ad75}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yingjiu},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{58e45dc6b56ca7bfdcb13601e15e8453}
+      \strng{fullhash}{b948146ddaa3636f922ec7c2a1f42b17}
+      \strng{bibnamehash}{b948146ddaa3636f922ec7c2a1f42b17}
+      \strng{authorbibnamehash}{b948146ddaa3636f922ec7c2a1f42b17}
+      \strng{authornamehash}{58e45dc6b56ca7bfdcb13601e15e8453}
+      \strng{authorfullhash}{b948146ddaa3636f922ec7c2a1f42b17}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{computers \& security}
+      \field{title}{Permission based Android security: Issues and countermeasures}
+      \field{volume}{43}
+      \field{year}{2014}
+      \field{pages}{205\bibrangedash 218}
+      \range{pages}{14}
+    \endentry
+    \entry{felt2012}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=6cb6ce81243cb36de22005936513cbb0}{%
+           family={Felt},
+           familyi={F\bibinitperiod},
+           given={Adrienne\bibnamedelima Porter},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=0f6b962f384b27f929bf30344478cef4}{%
+           family={Ha},
+           familyi={H\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9986e1a6903b4495e02aece21e4bbf0d}{%
+           family={Egelman},
+           familyi={E\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod}}}%
+        {{hash=eedbc4935a730a4d3275666a203eebaa}{%
+           family={Haney},
+           familyi={H\bibinitperiod},
+           given={Ariel},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2b8e0124007aca6e9cb59b90d5286e28}{%
+           family={Chin},
+           familyi={C\bibinitperiod},
+           given={Erika},
+           giveni={E\bibinitperiod}}}%
+        {{hash=45a593fbd4e5b2f4d60199ccfdb4fe59}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa0bef83a8be71eb52bd29f6e9361b3a}
+      \strng{fullhash}{45cf5955168dd26e13bc06e1c6b415de}
+      \strng{bibnamehash}{45cf5955168dd26e13bc06e1c6b415de}
+      \strng{authorbibnamehash}{45cf5955168dd26e13bc06e1c6b415de}
+      \strng{authornamehash}{aa0bef83a8be71eb52bd29f6e9361b3a}
+      \strng{authorfullhash}{45cf5955168dd26e13bc06e1c6b415de}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the eighth symposium on usable privacy and security}
+      \field{title}{Android permissions: User attention, comprehension, and behavior}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+    \endentry
+    \entry{ferreira2015}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=5f18780d79560c432b2d3898a80a5181}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Denzil},
+           giveni={D\bibinitperiod}}}%
+        {{hash=85884836a0d39fd0f7576b6279d883d4}{%
+           family={Kostakos},
+           familyi={K\bibinitperiod},
+           given={Vassilis},
+           giveni={V\bibinitperiod}}}%
+        {{hash=fc4b061bc9e1eb54449d09671ee62255}{%
+           family={Beresford},
+           familyi={B\bibinitperiod},
+           given={Alastair\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=20eb6a764df5f4158f1cadbf3a55ced4}{%
+           family={Lindqvist},
+           familyi={L\bibinitperiod},
+           given={Janne},
+           giveni={J\bibinitperiod}}}%
+        {{hash=383a958e7dc63d5a57bbeec2a4e3ac93}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Anind\bibnamedelima K},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5cce9b91bd34cb3f6423e8154496c74}
+      \strng{fullhash}{461eab8dabf45f705eddfbbaa02fd4f2}
+      \strng{bibnamehash}{461eab8dabf45f705eddfbbaa02fd4f2}
+      \strng{authorbibnamehash}{461eab8dabf45f705eddfbbaa02fd4f2}
+      \strng{authornamehash}{b5cce9b91bd34cb3f6423e8154496c74}
+      \strng{authorfullhash}{461eab8dabf45f705eddfbbaa02fd4f2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 8th ACM Conference on Security \& Privacy in Wireless and Mobile Networks}
+      \field{title}{Securacy: an empirical investigation of Android applications' network usage, privacy and security}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+    \endentry
+    \entry{permButton}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9db3e4d5ef38e1a8d2436271e05bf061}{%
+           family={Flow},
+           familyi={F\bibinitperiod},
+           given={Coding},
+           giveni={C\bibinitperiod},
+           prefix={in},
+           prefixi={i\bibinitperiod}}}%
+      }
+      \strng{namehash}{9db3e4d5ef38e1a8d2436271e05bf061}
+      \strng{fullhash}{9db3e4d5ef38e1a8d2436271e05bf061}
+      \strng{bibnamehash}{9db3e4d5ef38e1a8d2436271e05bf061}
+      \strng{authorbibnamehash}{9db3e4d5ef38e1a8d2436271e05bf061}
+      \strng{authornamehash}{9db3e4d5ef38e1a8d2436271e05bf061}
+      \strng{authorfullhash}{9db3e4d5ef38e1a8d2436271e05bf061}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://codinginflow.com/tutorials/android/run-time-permission-request}}
+      \field{note}{Accessed: 2021-07-01}
+      \field{title}{Runtime permission request}
+    \endentry
+    \entry{changes60}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https:// tinyurl.com/changes60}}
+      \field{note}{Accessed: 2021-07-20}
+      \field{title}{Android 6.0 {C}hanges}
+    \endentry
+    \entry{customAndroid}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://developer.android.com/guide/topics/permissions/defining}}
+      \field{note}{Accessed: 2021-06-01}
+      \field{title}{Define a {C}ustom {A}pp {P}ermission}
+      \field{year}{2020}
+    \endentry
+    \entry{devAndroid}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{extraname}{3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://developer.android.com/guide/topics/permissions/overview}}
+      \field{note}{Accessed: 2021-05-30}
+      \field{title}{Permissions on {A}ndroid}
+      \field{year}{2021}
+    \endentry
+    \entry{huang2015}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=567d042b520011ff63f3b9b9dc71e61f}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Keman},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6201d1c5c91434d2f4380216a483099c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2027d87ecbb78155b509c7838f415304}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=2bc5db8b4e13d01915a394c9b61274bf}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Zhiyong},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{65794ec8a6b73d023a5909712c912bd1}
+      \strng{fullhash}{594aa027c70038b66c6c49aeeb3380b0}
+      \strng{bibnamehash}{594aa027c70038b66c6c49aeeb3380b0}
+      \strng{authorbibnamehash}{594aa027c70038b66c6c49aeeb3380b0}
+      \strng{authornamehash}{65794ec8a6b73d023a5909712c912bd1}
+      \strng{authorfullhash}{594aa027c70038b66c6c49aeeb3380b0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 IEEE International Conference on Mobile Services}
+      \field{title}{An empirical analysis of contemporary android mobile vulnerability market}
+      \field{year}{2015}
+      \field{pages}{182\bibrangedash 189}
+      \range{pages}{8}
+    \endentry
+    \entry{kywe2016}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=cfbea5a45e11dc0cb6edd0d4dee1556d}{%
+           family={Kywe},
+           familyi={K\bibinitperiod},
+           given={Su\bibnamedelima Mon},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5ea5c8fa2a24693c3fb36a24e333ad75}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yingjiu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=996b09297f6e34d1b10d53a716692ba8}{%
+           family={Petal},
+           familyi={P\bibinitperiod},
+           given={Kunal},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1ad086068d5b2319c5002af497dd456f}{%
+           family={Grace},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d2242d58ee4e070ad3d83f040a473607}
+      \strng{fullhash}{a22f18f2bba8918e6c362d39c5b86214}
+      \strng{bibnamehash}{a22f18f2bba8918e6c362d39c5b86214}
+      \strng{authorbibnamehash}{a22f18f2bba8918e6c362d39c5b86214}
+      \strng{authornamehash}{d2242d58ee4e070ad3d83f040a473607}
+      \strng{authorfullhash}{a22f18f2bba8918e6c362d39c5b86214}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 14th Annual Conference on Privacy, Security and Trust (PST)}
+      \field{title}{Attacking android smartphone systems without permissions}
+      \field{year}{2016}
+      \field{pages}{147\bibrangedash 156}
+      \range{pages}{10}
+    \endentry
+    \entry{liebergeld2013}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=4d2452ea05e799a8cb5ad984fc5d58f0}{%
+           family={Liebergeld},
+           familyi={L\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cb07a76caae6b793c5cbfa3264769c5b}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a61e2280a8cf882ed29ce3d4b5bf6196}
+      \strng{fullhash}{a61e2280a8cf882ed29ce3d4b5bf6196}
+      \strng{bibnamehash}{a61e2280a8cf882ed29ce3d4b5bf6196}
+      \strng{authorbibnamehash}{a61e2280a8cf882ed29ce3d4b5bf6196}
+      \strng{authornamehash}{a61e2280a8cf882ed29ce3d4b5bf6196}
+      \strng{authorfullhash}{a61e2280a8cf882ed29ce3d4b5bf6196}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Information Sciences and Systems 2013}
+      \field{title}{Android security, pitfalls and lessons learned}
+      \field{year}{2013}
+      \field{pages}{409\bibrangedash 417}
+      \range{pages}{9}
+    \endentry
+    \entry{androidStat}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=10c97e426ae0057fa81909acadee3422}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Shanhong},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{10c97e426ae0057fa81909acadee3422}
+      \strng{fullhash}{10c97e426ae0057fa81909acadee3422}
+      \strng{bibnamehash}{10c97e426ae0057fa81909acadee3422}
+      \strng{authorbibnamehash}{10c97e426ae0057fa81909acadee3422}
+      \strng{authornamehash}{10c97e426ae0057fa81909acadee3422}
+      \strng{authorfullhash}{10c97e426ae0057fa81909acadee3422}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.statista.com/statistics/271774/share-of-android-platforms-on-mobile-devices-with-android-os/}}
+      \field{note}{Accessed: 2021-06-05}
+      \field{title}{Android operating system share worldwide by {OS} version from 2013 to 2020*}
+      \field{year}{2020}
+    \endentry
+    \entry{perms442}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=aedf70965050f2e13a063b3d736a9bbb}{%
+           family={Project},
+           familyi={P\bibinitperiod},
+           given={Android\bibnamedelimb Open\bibnamedelima Source},
+           giveni={A\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{aedf70965050f2e13a063b3d736a9bbb}
+      \strng{fullhash}{aedf70965050f2e13a063b3d736a9bbb}
+      \strng{bibnamehash}{aedf70965050f2e13a063b3d736a9bbb}
+      \strng{authorbibnamehash}{aedf70965050f2e13a063b3d736a9bbb}
+      \strng{authornamehash}{aedf70965050f2e13a063b3d736a9bbb}
+      \strng{authorfullhash}{aedf70965050f2e13a063b3d736a9bbb}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://tinyurl.com/androidmanifestv442}}
+      \field{note}{Accessed: 2021-07-05}
+      \field{title}{Android {C}ode {S}earch, {A}pp{M}anifest.xml for android\-4.2.2\_r1.2}
+    \endentry
+    \entry{stoeber2013}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=692fe3a0b6b418e0a56cb4143f0dd341}{%
+           family={Stöber},
+           familyi={S\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1bbab9c815433bf73dde94be2b7b96d0}{%
+           family={Frank},
+           familyi={F\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c2f1a96805ebd73393fb4284b7647b11}{%
+           family={Schmitt},
+           familyi={S\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1645d8bef55e7f7b84b3ae7a9a8e3729}{%
+           family={Martinovic},
+           familyi={M\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3fdeee24c3dd19649cc302133876595}
+      \strng{fullhash}{836d083bf16988e74a14378c712b1ab3}
+      \strng{bibnamehash}{836d083bf16988e74a14378c712b1ab3}
+      \strng{authorbibnamehash}{836d083bf16988e74a14378c712b1ab3}
+      \strng{authornamehash}{d3fdeee24c3dd19649cc302133876595}
+      \strng{authorfullhash}{836d083bf16988e74a14378c712b1ab3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the sixth ACM conference on Security and privacy in wireless and mobile networks}
+      \field{title}{Who do you sync you are? smartphone fingerprinting via application behaviour}
+      \field{year}{2013}
+      \field{pages}{7\bibrangedash 12}
+      \range{pages}{6}
+    \endentry
+    \entry{taylor2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ece4101fa7837c756ca831c78f587529}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=eee73a00207c5b88a02c44837bd0af60}{%
+           family={Nurse},
+           familyi={N\bibinitperiod},
+           given={Jason\bibnamedelima RC},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=57decc5233fb023ba7b9bc81b67f68f8}{%
+           family={Hodges},
+           familyi={H\bibinitperiod},
+           given={Duncan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Centre for Doctoral Training in Cyber Security}%
+      }
+      \strng{namehash}{19336bc8e8d94f7cac99df4939e7b5fa}
+      \strng{fullhash}{e632e17608c9f4d01ca84663069967c2}
+      \strng{bibnamehash}{e632e17608c9f4d01ca84663069967c2}
+      \strng{authorbibnamehash}{e632e17608c9f4d01ca84663069967c2}
+      \strng{authornamehash}{19336bc8e8d94f7cac99df4939e7b5fa}
+      \strng{authorfullhash}{e632e17608c9f4d01ca84663069967c2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Android apps and privacy risks: what attackers can learn by sniffing mobile device traffic}
+      \field{year}{2014}
+    \endentry
+    \entry{appleStat}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1756bb2990f588d1a6f2ef0678b3d726}{%
+           family={Vailshery},
+           familyi={V\bibinitperiod},
+           given={Lionel\bibnamedelima Sujay},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1756bb2990f588d1a6f2ef0678b3d726}
+      \strng{fullhash}{1756bb2990f588d1a6f2ef0678b3d726}
+      \strng{bibnamehash}{1756bb2990f588d1a6f2ef0678b3d726}
+      \strng{authorbibnamehash}{1756bb2990f588d1a6f2ef0678b3d726}
+      \strng{authornamehash}{1756bb2990f588d1a6f2ef0678b3d726}
+      \strng{authorfullhash}{1756bb2990f588d1a6f2ef0678b3d726}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.statista.com/statistics/565270/apple-devices-ios-version-share-worldwide/}}
+      \field{note}{Accessed: 2021-06-05}
+      \field{title}{Share of {A}pple i{P}hones by i{OS} version worldwide from 2016 to 2020}
+      \field{year}{2021}
+    \endentry
+    \entry{vidal2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b4d0428c2c77b308a71c290210a99c62}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={Jorge\bibnamedelima Maestre},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=8ef9cbe3264e1c56cad1c69fb9a07ce6}{%
+           family={Monge},
+           familyi={M\bibinitperiod},
+           given={Marco\bibnamedelimb Antonio\bibnamedelima Sotelo},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=98035df848041b6843cd20354e0f76d1}{%
+           family={Villalba},
+           familyi={V\bibinitperiod},
+           given={Luis\bibnamedelimb Javier\bibnamedelima Garcı́a},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7471c07bdd75262ac51acc7f203b4059}
+      \strng{fullhash}{35f2e98150ec7d45d47d2fb7cd1f1802}
+      \strng{bibnamehash}{35f2e98150ec7d45d47d2fb7cd1f1802}
+      \strng{authorbibnamehash}{35f2e98150ec7d45d47d2fb7cd1f1802}
+      \strng{authornamehash}{7471c07bdd75262ac51acc7f203b4059}
+      \strng{authorfullhash}{35f2e98150ec7d45d47d2fb7cd1f1802}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Knowledge-Based Systems}
+      \field{title}{A novel pattern recognition system for detecting Android malware by analyzing suspicious boot sequences}
+      \field{volume}{150}
+      \field{year}{2018}
+      \field{pages}{198\bibrangedash 217}
+      \range{pages}{20}
+    \endentry
+    \entry{wang2013}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=a84866b4900b3fe9a714de1f78dbf282}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4df8d666882b2239982a905dde86bb4b}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7437556e576c6f4e2ade58a9aa980ec5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4cc6986419906f14a29a3b1df52fb012}{%
+           family={Mukkamala},
+           familyi={M\bibinitperiod},
+           given={Srinivas},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a7eb2b8625823360943eed66c042450a}
+      \strng{fullhash}{a0fa24937bba651da4d1c23cb68348de}
+      \strng{bibnamehash}{a0fa24937bba651da4d1c23cb68348de}
+      \strng{authorbibnamehash}{a0fa24937bba651da4d1c23cb68348de}
+      \strng{authornamehash}{a7eb2b8625823360943eed66c042450a}
+      \strng{authorfullhash}{a0fa24937bba651da4d1c23cb68348de}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IFIP Annual Conference on Data and Applications Security and Privacy}
+      \field{title}{Quantitative security risk assessment of android permissions and applications}
+      \field{year}{2013}
+      \field{pages}{226\bibrangedash 241}
+      \range{pages}{16}
+    \endentry
+    \entry{xiao2020}{article}{}
+      \name{author}{5}{}{%
+        {{hash=64ab1be202ca82a85c31b1f470cee83b}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Jianmao},
+           giveni={J\bibinitperiod}}}%
+        {{hash=47883cec92feda878c95045a8a257e39}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shizhan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a2b28ed649a92db07015da432a5f8c0b}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=2bc5db8b4e13d01915a394c9b61274bf}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Zhiyong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=3b92a1c4c32bd7a056011cb27764d320}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{981eaddb5b2c615d2ddfc71b4a9b9d11}
+      \strng{fullhash}{9ff118dacddb46ab2fff054ba9e9f391}
+      \strng{bibnamehash}{9ff118dacddb46ab2fff054ba9e9f391}
+      \strng{authorbibnamehash}{9ff118dacddb46ab2fff054ba9e9f391}
+      \strng{authornamehash}{981eaddb5b2c615d2ddfc71b4a9b9d11}
+      \strng{authorfullhash}{9ff118dacddb46ab2fff054ba9e9f391}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{title}{An Android application risk evaluation framework based on minimum permission set identification}
+      \field{volume}{163}
+      \field{year}{2020}
+      \field{pages}{110533}
+      \range{pages}{1}
+    \endentry
+    \entry{zhauniarovich2016}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=919b250a05c8b274c70b724ddcef345a}{%
+           family={Zhauniarovich},
+           familyi={Z\bibinitperiod},
+           given={Yury},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e8c9851b54b17fa6ab7290158c810f1e}{%
+           family={Gadyatskaya},
+           familyi={G\bibinitperiod},
+           given={Olga},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{746abeb59f5ef2656081b0d015989541}
+      \strng{fullhash}{746abeb59f5ef2656081b0d015989541}
+      \strng{bibnamehash}{746abeb59f5ef2656081b0d015989541}
+      \strng{authorbibnamehash}{746abeb59f5ef2656081b0d015989541}
+      \strng{authornamehash}{746abeb59f5ef2656081b0d015989541}
+      \strng{authorfullhash}{746abeb59f5ef2656081b0d015989541}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Symposium on Research in Attacks, Intrusions, and Defenses}
+      \field{title}{Small changes, big changes: an updated view on the android permission system}
+      \field{year}{2016}
+      \field{pages}{346\bibrangedash 367}
+      \range{pages}{22}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
