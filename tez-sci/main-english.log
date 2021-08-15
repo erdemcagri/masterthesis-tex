@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.18)  13 AUG 2021 21:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.18)  15 AUG 2021 16:50
 entering extended mode
 **./main-english.tex
 (main-english.tex
@@ -2887,34 +2887,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--72
 {C:/Users/cagri/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 87.
- [2]
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 94.
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+
+ []
+
+[2] [3]
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 120.
+(Font)              scaled to size 18.66588pt on input line 121.
 Package tocbasic Info: character protrusion at toc deactivated on input line 12
-0.
+1.
 
 Use my own \@starttoc for toc
-(main-english.toc [3
+(main-english.toc [4
 
 
-
-]) [4]
+]) [5]
 Package tocbasic Info: character protrusion at lof deactivated on input line 12
-6.
+7.
 
 Use my own \@starttoc for lof
-(main-english.lof) [5
+(main-english.lof) [6
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 12
-7.
+8.
 
 Use my own \@starttoc for lot
 (main-english.lot)
 
 Package glossaries Warning: Empty glossary for \printnoidxglossary[type={acrony
 m}]. Rerun may be required (or you may have forgotten to use commands like \gls
-) on input line 148.
+) on input line 149.
 
 
 Package scrlayer-scrpage Warning: \headheight to low.
@@ -2925,7 +2936,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=22.00473pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
-82.
+83.
 
 
 Overfull \vbox (5.00473pt too high) has occurred while \output is active []
@@ -2941,372 +2952,361 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                  \setlength{\footheight}{22.00473pt}
 (scrlayer-scrpage)                in your preamble.
 (scrlayer-scrpage)                I'll also increase \footskip on input line 18
-2.
+3.
 
-[6
-
-]
-chapter 1.
 [7
 
 ]
+chapter 1.
+[8
+
+]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 190.
- [8]
+(Font)              scaled to size 10.95pt on input line 191.
+ [9]
 chapter 2.
 LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 21
-0.
+5.
 (C:\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 210.
-<graphics/bootsq.png, id=226, 664.28175pt x 355.92975pt>
+(Font)              scaled to size 9.85492pt on input line 215.
+<graphics/bootsq.png, id=237, 664.28175pt x 355.92975pt>
 File: graphics/bootsq.png Graphic file (type png)
 <use graphics/bootsq.png>
-Package pdftex.def Info: graphics/bootsq.png  used on input line 212.
+Package pdftex.def Info: graphics/bootsq.png  used on input line 217.
 (pdftex.def)             Requested size: 426.79135pt x 228.68495pt.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 213.
- [9
+ [10
 
 ]
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 222.
- [10 <./graphics/bootsq.png>]
-[11]
-<graphics/permworkflow.png, id=252, 1106.33325pt x 456.5055pt>
+(Font)              scaled to size 10.79993pt on input line 227.
+ [11 <./graphics/bootsq.png>]
+[12]
+<graphics/permworkflow.png, id=261, 1106.33325pt x 456.5055pt>
 File: graphics/permworkflow.png Graphic file (type png)
 <use graphics/permworkflow.png>
-Package pdftex.def Info: graphics/permworkflow.png  used on input line 240.
+Package pdftex.def Info: graphics/permworkflow.png  used on input line 245.
 (pdftex.def)             Requested size: 426.79135pt x 176.10692pt.
- [12 <./graphics/permworkflow.png>] [13]
+ [13] [14 <./graphics/permworkflow.png>]
 chapter 3.
-[14
+[15
 
-]
-<graphics/issueRel.png, id=283, 792.561pt x 243.91125pt>
+] [16]
+<graphics/issueRel.png, id=299, 792.561pt x 243.91125pt>
 File: graphics/issueRel.png Graphic file (type png)
 <use graphics/issueRel.png>
-Package pdftex.def Info: graphics/issueRel.png  used on input line 268.
+Package pdftex.def Info: graphics/issueRel.png  used on input line 272.
 (pdftex.def)             Requested size: 426.79135pt x 131.34909pt.
- [15]
-<graphics/vulnDisclosure.png, id=295, 411.939pt x 350.5095pt>
+ [17 <./graphics/issueRel.png>]
+<graphics/vulnDisclosure.png, id=309, 411.939pt x 350.5095pt>
 File: graphics/vulnDisclosure.png Graphic file (type png)
 <use graphics/vulnDisclosure.png>
-Package pdftex.def Info: graphics/vulnDisclosure.png  used on input line 280.
+Package pdftex.def Info: graphics/vulnDisclosure.png  used on input line 284.
 (pdftex.def)             Requested size: 312.9803pt x 266.30441pt.
- [16 <./graphics/issueRel.png>] [17 <./graphics/vulnDisclosure.png>]
-[18] [19]
-<graphics/androidstat.png, id=318, 1003.75pt x 745.78625pt>
+ [18] [19 <./graphics/vulnDisclosure.png>] [20]
+<graphics/androidstat.png, id=328, 1003.75pt x 745.78625pt>
 File: graphics/androidstat.png Graphic file (type png)
 <use graphics/androidstat.png>
-Package pdftex.def Info: graphics/androidstat.png  used on input line 302.
+Package pdftex.def Info: graphics/androidstat.png  used on input line 306.
 (pdftex.def)             Requested size: 369.88582pt x 274.83275pt.
- [20 <./graphics/androidstat.png>]
-<graphics/permgroups.png, id=330, 1061.1645pt x 528.7755pt>
+<graphics/permgroups.png, id=334, 1061.1645pt x 528.7755pt>
 File: graphics/permgroups.png Graphic file (type png)
 <use graphics/permgroups.png>
-Package pdftex.def Info: graphics/permgroups.png  used on input line 311.
+Package pdftex.def Info: graphics/permgroups.png  used on input line 315.
 (pdftex.def)             Requested size: 426.79135pt x 212.6683pt.
- [21 <./graphics/permgroups.png>]
-[22] [23]
+ [21] [22 <./graphics/androidstat.png>] [23 <./graphics/permgroups.png>] [24] [
+25]
 chapter 4.
-<graphics/deviceinf.png, id=350, 551.05875pt x 454.0965pt>
+<graphics/deviceinf.png, id=367, 551.05875pt x 454.0965pt>
 File: graphics/deviceinf.png Graphic file (type png)
 <use graphics/deviceinf.png>
-Package pdftex.def Info: graphics/deviceinf.png  used on input line 339.
+Package pdftex.def Info: graphics/deviceinf.png  used on input line 343.
 (pdftex.def)             Requested size: 312.9803pt x 257.91614pt.
-[24
+[26
 
-] [25 <./graphics/deviceinf.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 358--358
+] [27 <./graphics/deviceinf.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
 []|\T1/ntxtlf/m/n/10.95 (+20) Permission
  []
 
 
-Overfull \hbox (2.16342pt too wide) in paragraph at lines 389--389
+Overfull \hbox (2.16342pt too wide) in paragraph at lines 393--393
 []|\T1/ntxtlf/m/n/10.95 (-20) MICROPHONE| 
  []
 
 
-LaTeX Warning: Float too large for page by 31.81648pt on input line 448.
+LaTeX Warning: Float too large for page by 31.81648pt on input line 452.
 
-[26] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+[28] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 465--466
 []|\T1/ntxtlf/m/n/10.95 (+20) Protection
  []
 
 
-Underfull \vbox (badness 10000) detected at line 485
+Underfull \vbox (badness 10000) detected at line 489
  []
 
-[28] [29] [30] [31]
+[30] [31] [32] [33]
 chapter 5.
-<graphics/oninstall.png, id=395, 1946.472pt x 1153.911pt>
+<graphics/oninstall.png, id=411, 1946.472pt x 1153.911pt>
 File: graphics/oninstall.png Graphic file (type png)
 <use graphics/oninstall.png>
-Package pdftex.def Info: graphics/oninstall.png  used on input line 572.
+Package pdftex.def Info: graphics/oninstall.png  used on input line 576.
 (pdftex.def)             Requested size: 341.43306pt x 202.39523pt.
-[32
+[34
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 579.
+(Font)              scaled to size 10.0pt on input line 583.
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 579.
-Package csquotes Info: Input encoding change on input line 579.
+(Font)              scaled to size 8.99994pt on input line 583.
+Package csquotes Info: Input encoding change on input line 583.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [33 <./graphics/oninstall.png>]
-Package csquotes Info: Input encoding change on input line 602.
+) [35 <./graphics/oninstall.png>]
+Package csquotes Info: Input encoding change on input line 606.
 
 (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-<graphics/grcontacts.png, id=422, 707.64375pt x 120.45pt>
+<graphics/grcontacts.png, id=438, 707.64375pt x 120.45pt>
 File: graphics/grcontacts.png Graphic file (type png)
 <use graphics/grcontacts.png>
-Package pdftex.def Info: graphics/grcontacts.png  used on input line 617.
+Package pdftex.def Info: graphics/grcontacts.png  used on input line 621.
 (pdftex.def)             Requested size: 426.79135pt x 72.64548pt.
- [34]
-Package csquotes Info: Input encoding change on input line 622.
+ [36]
+Package csquotes Info: Input encoding change on input line 626.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [35 <./graphics/grcontacts.png>]
-Package csquotes Info: Input encoding change on input line 657.
+) [37 <./graphics/grcontacts.png>]
+Package csquotes Info: Input encoding change on input line 661.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-Package csquotes Info: Input encoding change on input line 663.
+Package csquotes Info: Input encoding change on input line 667.
 
 (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [36]
-Package csquotes Info: Input encoding change on input line 683.
+) [38]
+Package csquotes Info: Input encoding change on input line 687.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 6
-84.
+88.
  (C:\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 684.
- [37] [38]
-Package csquotes Info: Input encoding change on input line 706.
+(Font)              scaled to size 8.99994pt on input line 688.
+ [39] [40]
+Package csquotes Info: Input encoding change on input line 710.
 
 (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-Package csquotes Info: Input encoding change on input line 729.
+Package csquotes Info: Input encoding change on input line 733.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-<graphics/readpriv.png, id=534, 496.85625pt x 51.19125pt>
+<graphics/readpriv.png, id=550, 496.85625pt x 51.19125pt>
 File: graphics/readpriv.png Graphic file (type png)
 <use graphics/readpriv.png>
-Package pdftex.def Info: graphics/readpriv.png  used on input line 737.
+Package pdftex.def Info: graphics/readpriv.png  used on input line 741.
 (pdftex.def)             Requested size: 426.79135pt x 43.97282pt.
 
-[39]
-Package csquotes Info: Input encoding change on input line 742.
+[41]
+Package csquotes Info: Input encoding change on input line 746.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [40 <./graphics/readpriv.png>]
-[41]
-Package csquotes Info: Input encoding change on input line 774.
+) [42 <./graphics/readpriv.png>]
+[43]
+Package csquotes Info: Input encoding change on input line 778.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-Package csquotes Info: Input encoding change on input line 782.
+Package csquotes Info: Input encoding change on input line 786.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [42]
-Package csquotes Info: Input encoding change on input line 793.
+) [44]
+Package csquotes Info: Input encoding change on input line 797.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [43]
-<graphics/bqnoneappins.png, id=618, 1944.063pt x 1153.911pt>
+) [45]
+<graphics/bqnoneappins.png, id=634, 1944.063pt x 1153.911pt>
 File: graphics/bqnoneappins.png Graphic file (type png)
 <use graphics/bqnoneappins.png>
-Package pdftex.def Info: graphics/bqnoneappins.png  used on input line 807.
+Package pdftex.def Info: graphics/bqnoneappins.png  used on input line 811.
 (pdftex.def)             Requested size: 341.43306pt x 202.65935pt.
- [44] [45 <./graphics/bqnoneappins.png>]
-Package csquotes Info: Input encoding change on input line 819.
- (C:\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2020/08/01 v1.3d Input encoding file
-)
+ [46] [47 <./graphics/bqnoneappins.png>]
 Package csquotes Info: Input encoding change on input line 823.
+ (C:\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2020/08/01 v1.3d Input encoding file
+)
+Package csquotes Info: Input encoding change on input line 827.
 
 (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-Package csquotes Info: Input encoding change on input line 830.
+Package csquotes Info: Input encoding change on input line 834.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-[46]
-Package csquotes Info: Input encoding change on input line 844.
+[48]
+Package csquotes Info: Input encoding change on input line 848.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-Package csquotes Info: Input encoding change on input line 855.
+Package csquotes Info: Input encoding change on input line 859.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [47]
-Package csquotes Info: Input encoding change on input line 872.
+) [49]
+Package csquotes Info: Input encoding change on input line 876.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-Package csquotes Info: Input encoding change on input line 884.
+Package csquotes Info: Input encoding change on input line 888.
 
 (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [48]
-<graphics/confnet.png, id=696, 768.471pt x 438.438pt>
+) [50]
+<graphics/confnet.png, id=713, 768.471pt x 438.438pt>
 File: graphics/confnet.png Graphic file (type png)
 <use graphics/confnet.png>
-Package pdftex.def Info: graphics/confnet.png  used on input line 895.
+Package pdftex.def Info: graphics/confnet.png  used on input line 899.
 (pdftex.def)             Requested size: 426.79135pt x 243.49652pt.
- [49 <./graphics/confnet.png>]
-Package csquotes Info: Input encoding change on input line 906.
+ [51 <./graphics/confnet.png>]
+Package csquotes Info: Input encoding change on input line 910.
 
 (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-Package csquotes Info: Input encoding change on input line 912.
+Package csquotes Info: Input encoding change on input line 916.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-[50]
-Package csquotes Info: Input encoding change on input line 928.
+[52]
+Package csquotes Info: Input encoding change on input line 932.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [51]
-Package csquotes Info: Input encoding change on input line 948.
+) [53]
+Package csquotes Info: Input encoding change on input line 952.
 
 (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [52]
-Package csquotes Info: Input encoding change on input line 962.
+) [54]
+Package csquotes Info: Input encoding change on input line 966.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-Package csquotes Info: Input encoding change on input line 969.
+Package csquotes Info: Input encoding change on input line 973.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-<graphics/htcappinstall.png, id=754, 481.8pt x 803.0pt>
+<graphics/htcappinstall.png, id=770, 481.8pt x 803.0pt>
 File: graphics/htcappinstall.png Graphic file (type png)
 <use graphics/htcappinstall.png>
-Package pdftex.def Info: graphics/htcappinstall.png  used on input line 978.
+Package pdftex.def Info: graphics/htcappinstall.png  used on input line 982.
 (pdftex.def)             Requested size: 170.71652pt x 284.52174pt.
- [53]
-Package csquotes Info: Input encoding change on input line 986.
+ [55]
+Package csquotes Info: Input encoding change on input line 990.
 
 (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [54 <./graphics/htcappinstall.png>]
-Package csquotes Info: Input encoding change on input line 1014.
-
-(C:\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [55]
-Package csquotes Info: Input encoding change on input line 1021.
- (C:\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [56]
-Package csquotes Info: Input encoding change on input line 1056.
- (C:\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2020/08/01 v1.3d Input encoding file
-)
-Package csquotes Info: Input encoding change on input line 1063.
+) [56 <./graphics/htcappinstall.png>]
+Package csquotes Info: Input encoding change on input line 1018.
 
 (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 ) [57]
-Package csquotes Info: Input encoding change on input line 1092.
- (C:\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2020/08/01 v1.3d Input encoding file
-)
-Package csquotes Info: Input encoding change on input line 1097.
+Package csquotes Info: Input encoding change on input line 1025.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 ) [58]
-Package csquotes Info: Input encoding change on input line 1116.
+Package csquotes Info: Input encoding change on input line 1060.
+ (C:\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2020/08/01 v1.3d Input encoding file
+)
+Package csquotes Info: Input encoding change on input line 1067.
 
 (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-)
-Package csquotes Info: Input encoding change on input line 1124.
+) [59]
+Package csquotes Info: Input encoding change on input line 1096.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-[59]
-Package csquotes Info: Input encoding change on input line 1138.
- (C:\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2020/08/01 v1.3d Input encoding file
-)
-Package csquotes Info: Input encoding change on input line 1145.
+Package csquotes Info: Input encoding change on input line 1101.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 ) [60]
-Package csquotes Info: Input encoding change on input line 1165.
- (C:\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2020/08/01 v1.3d Input encoding file
-)
-Package csquotes Info: Input encoding change on input line 1175.
+Package csquotes Info: Input encoding change on input line 1120.
 
 (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [61]
-Package csquotes Info: Input encoding change on input line 1195.
+)
+Package csquotes Info: Input encoding change on input line 1128.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 )
-Package csquotes Info: Input encoding change on input line 1205.
+[61]
+Package csquotes Info: Input encoding change on input line 1142.
+ (C:\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2020/08/01 v1.3d Input encoding file
+)
+Package csquotes Info: Input encoding change on input line 1149.
  (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
 ) [62]
-Package csquotes Info: Input encoding change on input line 1219.
+Package csquotes Info: Input encoding change on input line 1169.
+ (C:\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2020/08/01 v1.3d Input encoding file
+)
+Package csquotes Info: Input encoding change on input line 1179.
 
 (C:\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2020/08/01 v1.3d Input encoding file
-) [63] [64]
+) [63]
+Package csquotes Info: Input encoding change on input line 1199.
+ (C:\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2020/08/01 v1.3d Input encoding file
+)
+Package csquotes Info: Input encoding change on input line 1209.
+ (C:\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2020/08/01 v1.3d Input encoding file
+) [64]
+Package csquotes Info: Input encoding change on input line 1223.
+
+(C:\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2020/08/01 v1.3d Input encoding file
+) [65] [66]
 chapter 6.
-[65
+[67
 
 ]
 chapter 7.
-[66
+[68
 
 ]
 chapter without number
-[67
+[69
 
-] [68]
-Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
-
- []
-
-[69] [70]
+] [70] [71]
+chapter A.
 \tf@thm=\write10
 \openout10 = `main-english.thm'.
 
 
-
 Package nag Warning: 1 complaints in total.
 
+[72
+
+]
 \openout2 = `main-english.wrt'.
 
-(main-english.aux
+ (main-english.aux
 Use my own \@writefile for toc
 Use my own \@writefile for lof
 Use my own \@writefile for lot
@@ -3345,12 +3345,12 @@ Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for toc
+Use my own \@writefile for toc
+Use my own \@writefile for toc
+Use my own \@writefile for toc
+Use my own \@writefile for toc
 Use my own \@writefile for lof
 Use my own \@writefile for lof
-Use my own \@writefile for toc
-Use my own \@writefile for toc
-Use my own \@writefile for toc
-Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for toc
@@ -3371,14 +3371,6 @@ Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for lof
 Use my own \@writefile for lof
-Use my own \@writefile for lof
-Use my own \@writefile for lof
-Use my own \@writefile for toc
-Use my own \@writefile for toc
-Use my own \@writefile for toc
-Use my own \@writefile for toc
-Use my own \@writefile for lof
-Use my own \@writefile for lof
 Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for lof
@@ -3389,26 +3381,10 @@ Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for lof
 Use my own \@writefile for lof
-Use my own \@writefile for lot
-Use my own \@writefile for lot
-Use my own \@writefile for lol
-Use my own \@writefile for lol
-Use my own \@writefile for lopytx
-Use my own \@writefile for lopytx
-Use my own \@writefile for toc
-Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for lof
 Use my own \@writefile for lof
-Use my own \@writefile for toc
-Use my own \@writefile for toc
-Use my own \@writefile for lot
-Use my own \@writefile for lot
-Use my own \@writefile for toc
-Use my own \@writefile for toc
-Use my own \@writefile for lot
-Use my own \@writefile for lot
 Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for lof
@@ -3427,6 +3403,30 @@ Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for toc
+Use my own \@writefile for lot
+Use my own \@writefile for lot
+Use my own \@writefile for toc
+Use my own \@writefile for toc
+Use my own \@writefile for lot
+Use my own \@writefile for lot
+Use my own \@writefile for toc
+Use my own \@writefile for toc
+Use my own \@writefile for lof
+Use my own \@writefile for lof
+Use my own \@writefile for lot
+Use my own \@writefile for lot
+Use my own \@writefile for lol
+Use my own \@writefile for lol
+Use my own \@writefile for lopytx
+Use my own \@writefile for lopytx
+Use my own \@writefile for toc
+Use my own \@writefile for toc
+Use my own \@writefile for lof
+Use my own \@writefile for lof
+Use my own \@writefile for toc
+Use my own \@writefile for toc
+Use my own \@writefile for toc
+Use my own \@writefile for toc
 Use my own \@writefile for lof
 Use my own \@writefile for lof
 Use my own \@writefile for toc
@@ -3485,6 +3485,14 @@ Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for toc
+Use my own \@writefile for lof
+Use my own \@writefile for lof
+Use my own \@writefile for lot
+Use my own \@writefile for lot
+Use my own \@writefile for lol
+Use my own \@writefile for lol
+Use my own \@writefile for lopytx
+Use my own \@writefile for lopytx
 Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for lof
@@ -3531,23 +3539,23 @@ Package logreq Info: Writing requests to 'main-english.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 81578 strings out of 479173
- 1826480 string characters out of 2870757
- 3242101 words of memory out of 12000000
+ 81584 strings out of 479173
+ 1827319 string characters out of 2870757
+ 3242112 words of memory out of 12000000
  96924 multiletter control sequences out of 15000+600000
- 466931 words of font info for 198 fonts, out of 8000000 for 9000
+ 467063 words of font info for 200 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,21n,120p,10623b,3133s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/MiKTeX/fonts/enc/dvips/inconsolata/i4-ts1.enc}{C:/MiKTeX/fonts/enc/dvips/
-newtx/ntx-ec-tlf.enc}{C:/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-1.enc}{C:/MiK
+inconsolata/i4-t1-1.enc}{C:/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{C:/MiK
 TeX/fonts/enc/dvips/tex-gyre/q-ec.enc}<C:/MiKTeX/fonts/type1/public/inconsolata
 /Inconsolata-zi4r.pfb><C:/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/MiKTe
 X/fonts/type1/public/tex-gyre/qhvr.pfb><C:/MiKTeX/fonts/type1/public/newtx/ztmb
 .pfb><C:/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/MiKTeX/fonts/type1/public
 /newtx/ztmri.pfb>
-Output written on main-english.pdf (70 pages, 1722930 bytes).
+Output written on main-english.pdf (72 pages, 1729834 bytes).
 PDF statistics:
- 1290 PDF objects out of 1440 (max. 8388607)
- 593 named destinations out of 1000 (max. 500000)
+ 1309 PDF objects out of 1440 (max. 8388607)
+ 595 named destinations out of 1000 (max. 500000)
  47498 words of extra memory for PDF output out of 51595 (max. 10000000)
 

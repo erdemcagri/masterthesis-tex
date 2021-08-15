@@ -87,10 +87,11 @@
   \section*{Abstract}
 \fi
 
-Among the billions of smartphone users in the world, Android still holds more than 80\% of the market share. The applications which the users install have specific set of features that need access to some device functionalities and sensors that may hold sensitive information about the user. Therefore, Android releases have set permission standards to let the user know what information is being disclosed to the application. Along with other security and privacy improvements, significant changes to the permission scheme are introduced with the Android 6.0 version (API level 23).%add more stuff after
+Among the billions of smartphone users in the world, Android still holds more than 80\% of the market share. The applications which the users install have specific set of features that need access to some device functionalities and sensors that may hold sensitive information about the user. Therefore, Android releases have set permission standards to let the user know what information is being disclosed to the application. Along with other security and privacy improvements, significant changes to the permission scheme are introduced with the Android 6.0 version (API level 23). In this master thesis, the Android permission scheme is tested on two devices from different eras. The evolution of Android over the years is examined in terms of confidentiality. For each device, two applications are built; one focused on extracting every piece of information within the confidentiality scope with every permission declared and/or requested, and the other app focused on getting this type of information without user notification. The resulting analysis illustrates whether how and in what way the Android permission scheme declined or improved over time.
+ 
 
-\cleardoublepage
-
+%\cleardoublepage
+\Versicherung
 
 % BEGIN: Verzeichnisse
 
@@ -197,7 +198,11 @@ As a result, this master thesis aims to answer following questions: Analyzing co
 	\item If one were to install the same application and conducted the exact same comparative analysis on the same Android smartphone with elevated root privileges, how would the obtainable information differ from the unmodified device?
 \end{enumerate}
 
-%This part of introduction will include chapter specific information.
+Following this introduction, \cref{cha:permissions} delves into the basics of the Android permission scheme. Two points in time are taken as reference to examine the permission scheme. In addition, the Android boot sequence is described to deliver a wider comprehension of the application sandboxing embedded into the OS.
+
+\cref{cha:litreview} deals with the existing research. It primarily focuses on the issues affiliated with the permission scheme. Scholars emphasize on matters such as application overprivilege, network usage of the apps, vulnerability analysis, and changes brought by the Android 6.0.
+
+Subsequently, \cref{cha:methodology} describes research methods employed in this thesis. Moreover, it demonstrates the device specification and application details for the investigation. Next, \cref{cha:experiments} provides in-depth analysis of the permission scheme. In \cref{cha:discussion}, a confidentiality conscious examination of the investigation findings is conducted. Consequently, \cref{cha:conclusion} gives the final verdict based on this review.
 
 \chapter{An Overview of the Android Permission Scheme}
 \label{cha:permissions}
@@ -207,7 +212,7 @@ In this section, the Android permission scheme will be examined from the perspec
 \section{Pre-2015 Era}
 The application security of Android is founded on isolating the applications from each other, and allowing specific set of permissions the app requires \cite{liebergeld2013}. Only some system processes run with root privileges. 
 
-After the Android BootLoader loads kernel to the memory, the root process \texttt{init.rc} mounts system directories, and starts native daemons such as Service Manager and Media Server. The init scripts calls \texttt{AndroidRuntime.start()}, where Dalvik VM is activated. Subsequently, \texttt{ZygoteInit.main()} is called. It first starts a special process for the system server through \texttt{startSystemServer()}, then it preloads classes and listens for incoming commands. Zygote is an OS process that enables apps to be isolated in a sandbox. Every time a Java application is launched, \texttt{ZygoteConnection.runOnce()} is called, and Zygote gets forked into a new process through \texttt{Zygote.forkAndSpecialize()}. The Linux kernel's implementation of the copy-on-write resource management approach is responsible for this forking functionality. Forking involves establishing a new process that is a mirror of the original. Rather than actually copying anything, it maps the new process pages to the parent process, and only makes copies when the new process writes to a page. Each application runs in its own process inside a Dalvik VM instance with its own user and group ID, and with no means to communicate with other apps.
+After the Android Bootloader loads kernel to the memory, the root process \texttt{init.rc} mounts system directories, and starts native daemons such as Service Manager and Media Server. The init scripts calls \texttt{AndroidRuntime.start()}, where Dalvik VM is activated. Subsequently, \texttt{ZygoteInit.main()} is called. It first starts a special process for the system server through \texttt{startSystemServer()}, then it preloads classes and listens for incoming commands. Zygote is an OS process that enables apps to be isolated in a sandbox. Every time a Java application is launched, \texttt{ZygoteConnection.runOnce()} is called, and Zygote gets forked into a new process through \texttt{Zygote.forkAndSpecialize()}. The Linux kernel's implementation of the copy-on-write resource management approach is responsible for this forking functionality. Forking involves establishing a new process that is a mirror of the original. Rather than actually copying anything, it maps the new process pages to the parent process, and only makes copies when the new process writes to a page. Each application runs in its own process inside a Dalvik VM instance with its own user and group ID, and with no means to communicate with other apps.
 \begin{figure}\centering
 	\includegraphics[width=\linewidth]{bootsq}
 	\caption{Android boot sequence \cite{vidal2018}.}
@@ -226,13 +231,13 @@ Install-time permissions enable applications to access to restricted data, and a
 These include data and actions that extend beyond app's sandbox. They are classified as normal protection level because they present little to no risk to user's privacy and the operation of other apps. 
 
 \textbf{\sffamily Signature permissions}\\
-A permission that the system grants only if the requesting application is signed with the same certificate as the application that declared the permission. Therefore, if an app declares a signature permission that another app has defined, and both applications are signed by the same certificate, the system grants the permission to the first app after installation without the users explicit approval. Otherwise, the permission will not be provided to the first app.
+A permission that the system grants only if the requesting application is signed with the same certificate as the application that declared the permission. Therefore, if an app declares a signature permission that another app has defined, and both applications are signed by the same certificate, the system grants the permission to the first app after installation without the users explicit approval. Otherwise, the permission will not be provided to the first app. While the definition of install-time permissions state that the overall impact is marginal to the system and the other apps, signature permissions somewhat defy this interpretation. However, since the access given to the app by this type of permission is bound on a certificate, a developer can only give access to a secondary application that is built by them. The meaning is that, the type of access enabled is not marginal, however the scope is reduced so much that the effect on the user is naught. An app with signature permissions has only so much access that the user already consented to give to the developer. Therefore, signature permissions enable the developer to provide a convenience for the user at no cost to their privacy.
 
 \subsection{Runtime permissions}
-Known as the dangerous permissions before Android 6, runtime permissions give applications additional access to restricted data that can have a significant effect on system and other third party apps. As opposed to install-time permissions, declaring these permissions result in a permission prompt during runtime. They can access personally identifiable information of the user. Hence these permissions are classified as dangerous protection level.
+Known as the dangerous permissions before Android 6, runtime permissions give applications additional access to restricted data that can have a significant effect on system and other third party apps. As opposed to install-time permissions, declaring these permissions result in a permission prompt during runtime. They can access personally identifiable information of the user. Hence, these permissions are classified as dangerous protection level.
 
 \subsection{Special permissions}
-These permissions are defined by the platform and OEMs to carry out specific app functionalities. In addition, the platform and OEMs can define special permissions in order to restrict or protect access to dangerous actions. Special permissions are classified as the "appop" protection level.
+These permissions are defined by the platform and OEMs to carry out specific app functionalities. In addition, the platform and OEMs can define special permissions in order to restrict or protect access to dangerous actions. Special permissions are classified as the \textit{appop} protection level. These are basically signature permissions for manufacturers and platform developers, hence the designation \texttt{signature|appop}.
 
 \subsection{Alternatives to permissions}
 As seen in Figure \ref{workflow}, modern Android documentation urges application developers to declare permissions only in the situations where alternatives are not available. Asking the user for a postal code or an address instead of declaring \texttt{ACCESS\_COARSE\_LOCATION} permission is suggested. Another example is the app using the system camera app, where it is encouraged to invoke \texttt{ACTION\_IMAGE\_CAPTURE}, or \texttt{ACTION\_VIDEO\_CAPTURE} instead of declaring the \texttt{CAMERA} permission. In the situations where the app needs to access content that another app has created, it is stated that instead of declaring \texttt{READ\_EXTERNAL\_STORAGE} permission, it is better to use the smartphone media store to open media files, and Storage Access Framework to open other files and miscellaneous documents. Media store is a framework that provides an index to media collections, allowing for retrieving and updating media files. Storage Access Framework has a similar functionality for the non-media content.
@@ -249,13 +254,12 @@ In an effort to further protect Inter-Process Communication (ICP), Android also 
 \chapter{Literature Review}
 \label{cha:litreview}
 
-%add an introductory paragraph
-%then divide it into sections
+In this chapter, existing research is compiled. The prevailing range of issues facing the Android permission scheme that is popular among scholars include application overprivilege, analysis of app network usage, vulnerability analysis, attacks conducted without any permissions, OS version distribution, and most importantly, changes that came with the Android 6.0.
 
 \section{Overprivilege}
-According to Wang et al. in an 2013 paper, application overprivilege can be a serious problem in the Android permission scheme \cite{wang2013}. They claim that quite a lot of developers and users are hardly mindful of whether the requested permissions hold any functional purpose. In their analysis, they randomly select 50 apps from the Google Play store and another third-party store, and find that overprivilege is a common problem. Although the results show that the issue is much more severe in the third-party store, the authors found that around 44\% of the apps they tested requested unnecessary permissions.
+According to Wang et al. in an 2013 paper, application overprivilege can be a serious problem in the Android permission scheme \cite{wang2013}. They claim that quite a lot of developers and users are hardly mindful of whether the requested permissions hold any functional purpose. In their analysis, they randomly select 50 apps from the Google Play Store and another third-party store, and find that overprivilege is a common problem. Although the results show that the issue is much more severe in the third-party store, the authors found that around 44\% of the apps they tested requested unnecessary permissions.
 
-A study on application overprivilege of 71 educational apps show worrying results \cite{alenezi2017}. Authors claim that depending on the users alone for permissions is was a poor solution for previous issues. In the experiment, they analyze every declared and used permission. Analysis showed that 25\% of the total declared permissions were custom permissions. It was also found that approximately 80\% of the apps declared more permissions then what they actually used. Alenezi et al. suggest an integrated solution that detects discrepancies between declared and used permissions. They believe that even under development, an IDE should display whether the declared permissions are being used or not.
+A study on application overprivilege of 71 educational apps show worrying results \cite{alenezi2017}. Authors claim that depending on the users alone for permissions is was a poor solution for previous issues. In the experiment, they analyze every declared and used permission. Analysis showed that 25\% of the total declared permissions were custom permissions. It was also found that approximately 80\% of the apps declared more permissions than what they actually used. Alenezi et al. suggest an integrated solution that detects discrepancies between declared and used permissions. They believe that even under development, an IDE should display whether the declared permissions are being used or not.
 
 \section{Application analysis for pre-2015 Android}
 In 2014, on their analysis of 35 Android applications, Taylor et al. found significant problems regarding network usage of apps \cite{taylor2014}. All but one of the applications sent some amount of data encrypted using SSL, however 80\% of the apps also sent information in plaintext. Well over half of these apps were responsible for privacy leaks. There is some reasoning behind why encrypted and unencrypted connections were used in combination. It may be due to the scalability issues that came with the SSL at the time, or simply the price of SSL certificates, both reasons resulting in a higher upkeep cost. Attackers can find out make and model of the device, including the OS version and installed apps. All of this information can lead an attacker to pinpoint specific exploits for particular devices. In addition, attacks on encrypted connections are also possible. Stöber et al. note that although the content is hidden from eavesdroppers, an attacker can gather side-channel information such as timing and data volume through fingerprinting periodic traffic patterns with a high success rate \cite{stoeber2013}. 
@@ -331,10 +335,10 @@ Alepis et al. also argue that after Android 6.0, transparency of permissions hav
 
 \chapter{Methodology}
 \label{cha:methodology}
-The research methodology will be described in this section. 
+The research methodology includes an extensive literature review located in \cref{cha:litreview}. The experimentation is carried out with two devices, of which the specification is explained in Section 4.1. For the first part of the investigation, two applications are built using Android Studio IDE using Java programming language. Section 4.2 gives an overview of the applications. Second part of the investigation consists of rooting the devices, and noting the differences between the retrievable information, in addition to attempting to provide the apps with superuser privileges. The experimentation is conducted with a focus on confidentiality principle of information security. The findings are analyzed in \cref{cha:discussion}. Comparisons are drawn based on the differences across devices and applications.   
 
 \section{Test Device Specification}
-In order to conduct the experiment, two smartphones of which one older and one newer were acquired. The older device is an HTC One SV, which is equipped with an Android version 4.2.2 (API level 17). The newer device is a BQ Aquaris X Pro, which has the 8.1.0 version (API level  27) of Android. Device information for both smartphones can be seen in the Figure \ref{devinf}. These two devices cover the version discrepancy of the Android devices in the market, enabling us to get a broad idea on both sides of the coin.
+In order to conduct the experiment, two smartphones of which one employing older and one newer OS versions were acquired. The older device is an HTC One SV, which is equipped with an Android version 4.2.2 (API level 17). The newer device is a BQ Aquaris X Pro, which has the 8.1.0 version (API level  27) of Android. Device information for both smartphones can be seen in the Figure \ref{devinf}. These two devices cover the version discrepancy of the Android devices in the market, enabling us to get a broad idea on both sides of the coin.
 \begin{figure}\centering
 	\includegraphics[width=11cm]{deviceinf}
 	\caption{Device information pages for the two smartphones (left: BQ Aquaris X Pro, right: HTC One SV).}
@@ -449,7 +453,7 @@ SENSORS & \texttt{BODY\_SENSORS} \\
 
 Following the declaration of permissions in the \texttt{AndroidManifest.xml} file, a permission request button was created \cite{permButton}. Next, the code was expanded to request all declared permissions with that one button. In this version of Android, even if one declares runtime permissions in the manifest file, the app will behave as if no permissions are required at install, unless they are specifically requested.
 
-The second state of the app is much simpler, which only includes creating a basic application out of an empty template. Alepis et al.'s extensive 2017 study mentioned if the app only declares normal permissions in its manifest file, the user would not be notified and would not be able to see what normal permissions were declared in Settings. Therefore, the app contains no runtime permissions, but all install-time permissions.
+The second state of the app is much simpler, which only includes creating a basic application out of an empty template. Alepis et al.'s extensive 2017 study mentioned if the app only declares normal permissions in its manifest file, the user would not be notified and would not be able to see what normal permissions were declared in Settings. Therefore, the app contains no runtime permissions, but all install-time permissions. This notion is further explained in Section 5.2.
 \newpage
 \subsection{The application for the HTC device}
 The creation of the HTC app for the full permissions state was fairly similar to that of the BQ app. Using the Android documentation \cite{perms442}, a categorized list of all permissions were written into the \texttt{AndroidManifest.xml} file. In total, there were approximately 200 permissions listed in the file. 70 permissions under 25 different categories were declared, while the remaining ones were flagged as signature, or as reserved for system applications. Of all the declared permissions, 46 were classified as dangerous protection level, while 24 of them as normal protection level. The full list of permissions can be seen in the Table \ref{apphtcfperms}.
@@ -557,7 +561,7 @@ The creation of the HTC app for the full permissions state was fairly similar to
 	\label{apphtcfperms}
 \end{longtable}
 
-For the second state of the app, no permissions were declared. Unlike Android 8.1.0, version 4.2.2 notifies the user at install-time about the declared permissions even if no dangerous permissions were declared. Thus, this state of the application was just an empty project template.
+For the second state of the app, no permissions were declared. Unlike Android 8.1.0, version 4.2.2 notifies the user at install-time about the declared permissions even if no dangerous permissions were declared. Thus, this state of the application was just an empty project template set at minimum SDK 17.
 
 \chapter{Experiments}
 \label{cha:experiments}
@@ -752,9 +756,9 @@ However, the privileged phone state permission is a system permission, and it is
 [Manufacturer: bq, Model: Aquaris X Pro, Serial number: GF006209, Bootloader: BOOT.BF.3.3, Display: 2.11.0_20191121-1510]
 
 --- CALL LOG --- 
-[Phone Number: 5331928099 Call Type: 2 Date: Mon Aug 02 18:08:50 GMT+03:00 2021 Duration: 0, 
-Phone Number: 5331928099 Call Type: 2 Date: Mon Aug 02 18:09:13 GMT+03:00 2021 Duration: 0, 
-Phone Number: 05079776076 Call Type: 1 Date: Mon Aug 02 18:19:20 GMT+03:00 2021 Duration: 49]
+[Phone Number: 5331928099 Call Type: 2 Date: Mon Aug 09 18:08:50 GMT+03:00 2021 Duration: 0, 
+Phone Number: 5331928099 Call Type: 2 Date: Mon Aug 09 18:09:13 GMT+03:00 2021 Duration: 0, 
+Phone Number: 05079776076 Call Type: 1 Date: Mon Aug 09 18:19:20 GMT+03:00 2021 Duration: 49]
 \end{lstlisting}
 After some research, I found out that the new privileged phone state permişsion was introduced with Android 10, and since this is version is 8.1.0, the error did not make the app crash, just as it did not for the HTC app as well. This of course, means that any app with a minimum SDK less then 29 will have access to this data using the phone state permission.
 
@@ -1230,14 +1234,14 @@ For this version, every permission declared shows up upon installation and in th
 Next, the lint suppressors were removed, and the erroneous code was commented out to see the remaining information. This in turn, downright eliminated some methods such as \texttt{prevConnNetworks()} (previously connected Wi-Fi networks), \texttt{getBtInfo()} (Bluetooth MAC), \texttt{btDiscoverDevices()}(Bluetooth discovery method), and finally, \texttt{getPairedBt()} (previously bonded Bluetooth devices). The remaining entries in the shared preferences file was Wi-Fi info, Wi-Fi scan, and secure Android ID. Interestingly, this also resulted in a direct crash. It turned out that even the remaining methods without any errors made the app crash, and in the end, only piece of information gathered from the device was the secure Android ID, which as I mentioned before, is not a completely sound way of retrieving an identifier, since it can be changed to another value after a factory reset, or version update.
 
 \section{Findings on the rooted devices}
-The root access was given to the BQ device through Magisk Manager, and to the HTC device through the SuperSU app. Both applications are similar in what they do, which gives superuser access to the user, and enables applications to run these \textit{su} commands in their code, provided that the user agrees to give them this access. The root access was done on the stock ROM with the same Android versions, so virtually nothing was changed on the devices except the access to superuser privileges. 
+The root access was given to the BQ device through Magisk Manager, and to the HTC device through the SuperSU app. Both applications are similar in what they do, which gives superuser access to the user, and enables applications to run \textit{su} commands in their code, provided that the user agrees to give them this access. The root access was done on the stock ROM with the same Android versions, so virtually nothing was changed on the devices except the access to superuser privileges for device user. 
 
 \chapter{Discussion}
 \label{cha:discussion}
+In this chapter, findings from the experimentation are discussed.
 
-\section{Analysis of apps with full permissions granted}
+\section{Evolution of permissions}
 
-\section{Analysis of apps with no permissions granted}
 
 \chapter{Conclusion}
 \label{cha:conclusion}
@@ -1248,9 +1252,18 @@ This is my conclusion.
 \printbibliography
 
 \appendix
+\chapter{Appendix}
+Full program codes, manifest files, and output files can also be found in the following GitHub link.
 
+%\section{AppBQ\_full/MainActivity.java}
+%\lstinputlisting{./code/bqf-MainActivity.java}
 
-\pagestyle{empty}
-\renewcommand*{\chapterpagestyle}{empty}
-\Versicherung
+%\section{AppBQ\_none/MainActivity.java}
+%\lstinputlisting{./code/bqn-MainActivity.java}
+
+%\section{AppHTC\_full/MainActivity.java}
+%\lstinputlisting{./code/htcf-MainActivity.java}
+
+%\section{AppHTC\_none/MainActivity.java}
+%\lstinputlisting{./code/htcn-MainActivity.java}
 \end{document}

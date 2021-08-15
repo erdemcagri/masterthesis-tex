@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apphtc_full">
+
+
+            <!-- group: MESSAGES -->
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH"/>
+
+            <!-- group: SOCIAL_INFO -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM"/>
+    <uses-permission android:name="android.permission.WRITE_SOCIAL_STREAM"/>
+
+            <!-- group: PERSONAL_INFO -->
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_PROFILE"/>
+
+            <!-- group: CALENDAR -->
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+
+            <!-- group: USER_DICTIONARY -->
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY"/> <!-- normal -->
+
+            <!-- group: BOOKMARKS -->
+    <uses-permission android:name="android.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.WRITE_HISTORY_BOOKMARKS"/>
+
+            <!-- group: DEVICE_ALARMS -->
+    <uses-permission android:name="android.permission.SET_ALARM"/> <!-- normal -->
+
+            <!-- group: VOICEMAIL -->
+    <uses-permission android:name="android.permission.ADD_VOICEMAIL"/>
+
+            <!-- group: LOCATION -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/> <!-- normal -->
+
+            <!-- group: NETWORK -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> <!-- normal -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/> <!-- normal -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+            <!-- group: BLUETOOTH_NETWORK -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.NFC"/>
+
+            <!-- group: ACCOUNTS -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/> <!-- normal -->
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+
+            <!-- group: AFFECTS_BATTERY -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/> <!-- normal -->
+    <uses-permission android:name="android.permission.FLASHLIGHT"/> <!-- normal -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/> <!-- normal -->
+
+            <!-- group: AUDIO_SETTINGS -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/> <!-- normal -->
+
+            <!-- group: MICROPHONE -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+            <!-- group: CAMERA -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+            <!-- group: PHONE_CALLS -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.USE_SIP"/>
+
+            <!-- group: STORAGE -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+            <!-- group: SCREENLOCK -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+
+            <!-- group: APP_INFO -->
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/> <!-- normal -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/> <!-- normal -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/> <!-- normal -->
+
+            <!-- group: DISPLAY -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+            <!-- group: WALLPAPER -->
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/> <!-- normal -->
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/> <!-- normal -->
+
+            <!-- group: STATUS_BAR -->
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/> <!-- normal -->
+
+            <!-- group: SYNC_SETTINGS -->
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/> <!-- normal -->
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/> <!-- normal -->
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/> <!-- normal -->
+
+            <!-- group: SYSTEM_TOOLS -->
+    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY"/> <!-- normal -->
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/> <!-- normal -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/> <!-- normal -->
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/> <!-- normal -->
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ"/> <!-- normal -->
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+
+
+    <!-- reserved for system- but tagged dangerous
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.SET_ANIMATION_SCALE"/>
+    <uses-permission android:name="android.permission.SET_TIME_ZONE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.SET_PROCESS_LIMIT"/>
+    <uses-permission android:name="android.permission.SET_ALWAYS_FINISH"/>
+    <uses-permission android:name="android.permission.SIGNAL_PERSISTENT_PROCESSES"/>
+    -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppHTC_full">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

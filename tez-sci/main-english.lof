@@ -5,37 +5,39 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Android boot sequence \cite {vidal2018}.\relax }}{10}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Android boot sequence \cite {vidal2018}.\relax }}{11}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces High-level workflow for using permissions on Android \cite {devAndroid}.\relax }}{12}{figure.caption.6}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Relationship between issues in Android permission scheme \cite {fang2014}.\relax }}{16}{figure.caption.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Vulnerability Disclosure Trend Per Year \cite {huang2015}.\relax }}{17}{figure.caption.8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Android OS version distribution in the worldwide market \cite {androidStat}.\relax }}{20}{figure.caption.9}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Groups for dangerous permissions \cite {alepis2017}.\relax }}{21}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces High-level workflow for using permissions on Android \cite {devAndroid}.\relax }}{14}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Device information pages for the two smartphones (left: BQ Aquaris X Pro, right: HTC One SV).\relax }}{25}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Relationship between issues in Android permission scheme \cite {fang2014}.\relax }}{17}{figure.caption.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Vulnerability Disclosure Trend Per Year \cite {huang2015}.\relax }}{19}{figure.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Android OS version distribution in the worldwide market \cite {androidStat}.\relax }}{22}{figure.caption.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Groups for dangerous permissions \cite {alepis2017}.\relax }}{23}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Screens upon installation of the app with full permissions on BQ Aquaris X Pro.\relax }}{33}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Device information pages for the two smartphones (left: BQ Aquaris X Pro, right: HTC One SV).\relax }}{27}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Text file for the permission log showing user e-mail.\relax }}{35}{figure.caption.16}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The IDE error upon IMEI and IMSI retrieval actions.\relax }}{40}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Screens upon installation of the app with full permissions on BQ Aquaris X Pro.\relax }}{35}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces BQ application installation screens with no permissions requested.\relax }}{45}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Text file for the permission log showing user e-mail.\relax }}{37}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The configured networks entry in the shared preferences file.\relax }}{49}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The IDE error upon IMEI and IMSI retrieval actions.\relax }}{42}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces HTC device permission prompt on app install.\relax }}{54}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces BQ application installation screens with no permissions requested.\relax }}{47}{figure.caption.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The configured networks entry in the shared preferences file.\relax }}{51}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces HTC device permission prompt on app install.\relax }}{56}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
