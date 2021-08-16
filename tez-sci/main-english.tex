@@ -39,7 +39,7 @@
   supervisor={Prof.\ Dr.\ Dirk Westhoff\\
     Prof.\ Dr.\ Daniel Hammer\\},
   startdate={April 26, 2021},
-  enddate={August 25, 2021}
+  enddate={August 23, 2021}
 ]{scientific-thesis-cover}
 
 \input{acronyms}
@@ -1235,6 +1235,10 @@ Next, the lint suppressors were removed, and the erroneous code was commented ou
 
 \section{Findings on the rooted devices}
 The root access was given to the BQ device through Magisk Manager, and to the HTC device through the SuperSU app. Both applications are similar in what they do, which gives superuser access to the user, and enables applications to run \textit{su} commands in their code, provided that the user agrees to give them this access. The root access was done on the stock ROM with the same Android versions, so virtually nothing was changed on the devices except the access to superuser privileges for device user. 
+
+Rooting the device does not change anything for the what the applications return, since this privilege is given to the user and not the app. The user still needs to grant the superuser request by the app. Following this, I set up two more apps to test these shell commands through Java. The point here is to get information relevant to the scope of this thesis without any permissions. 
+
+For the BQ device, a \texttt{runCommand()} method was implemented. The method takes a shell command as argument, and...
 
 \chapter{Discussion}
 \label{cha:discussion}
