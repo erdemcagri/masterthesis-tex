@@ -1,15 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'main-english.blg'
 [131] biber-MSWIN64:340> INFO - === 
-[174] Biber.pm:415> INFO - Reading 'main-english.bcf'
-[314] Biber.pm:952> INFO - Found 22 citekeys in bib section 0
-[331] Biber.pm:4340> INFO - Processing section 0
-[344] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[409] bibtex.pm:1689> INFO - LaTeX decoding ...
-[452] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliography.bib'
-[606] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[606] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[606] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[606] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[629] bbl.pm:654> INFO - Writing 'main-english.bbl' with encoding 'UTF-8'
-[643] bbl.pm:757> INFO - Output to main-english.bbl
+[173] Biber.pm:415> INFO - Reading 'main-english.bcf'
+[301] Biber.pm:952> INFO - Found 23 citekeys in bib section 0
+[319] Biber.pm:4340> INFO - Processing section 0
+[332] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[395] bibtex.pm:1689> INFO - LaTeX decoding ...
+[451] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliography.bib'
+[614] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[614] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[614] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[615] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[639] bbl.pm:654> INFO - Writing 'main-english.bbl' with encoding 'UTF-8'
+[652] bbl.pm:757> INFO - Output to main-english.bbl

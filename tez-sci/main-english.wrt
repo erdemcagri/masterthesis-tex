@@ -162,8 +162,12 @@
 \@writefile{toc}{\contentsline {section}{\numberline {5.4}AppHTC\_none}{66}{section.5.4}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
 \@writefile{toc}{\contentsline {section}{\numberline {5.5}Findings on the rooted devices}{66}{section.5.5}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Magisk prompt to regarding superuser access on the BQ device.\relax }}{68}{figure.caption.35}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces The effect of chmod 777 to folder permissions in Android Device File Explorer.\relax }}{70}{figure.caption.36}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Discussion}{67}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Discussion}{71}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
@@ -173,9 +177,9 @@
 \@writefile{lopytx}{\defcounter {refsection}{0}\relax }
 \@writefile{lopytx}{\addvspace {10\p@ }}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Evolution of permissions}{67}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Evolution of permissions}{71}{section.6.1}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{68}{chapter.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{72}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
@@ -185,7 +189,7 @@
 \@writefile{lopytx}{\defcounter {refsection}{0}\relax }
 \@writefile{lopytx}{\addvspace {10\p@ }}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{69}{chapter*.35}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{73}{chapter*.37}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
@@ -195,7 +199,7 @@
 \@writefile{lopytx}{\defcounter {refsection}{0}\relax }
 \@writefile{lopytx}{\addvspace {10\p@ }}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix}{72}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix}{76}{appendix.A}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }

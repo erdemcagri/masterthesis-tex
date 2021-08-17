@@ -1236,9 +1236,68 @@ Next, the lint suppressors were removed, and the erroneous code was commented ou
 \section{Findings on the rooted devices}
 The root access was given to the BQ device through Magisk Manager, and to the HTC device through the SuperSU app. Both applications are similar in what they do, which gives superuser access to the user, and enables applications to run \textit{su} commands in their code, provided that the user agrees to give them this access. The root access was done on the stock ROM with the same Android versions, so virtually nothing was changed on the devices except the access to superuser privileges for device user. 
 
-Rooting the device does not change anything for the what the applications return, since this privilege is given to the user and not the app. The user still needs to grant the superuser request by the app. Following this, I set up two more apps to test these shell commands through Java. The point here is to get information relevant to the scope of this thesis without any permissions. 
+Rooting the device does not change anything for what the applications return in the log files, since this privilege is given to the user and not the app. The user still needs to grant the superuser request by prompted the app. Following this, I set up two more apps to test these shell commands through Java. The point here is to get information relevant to the scope of this thesis without any permissions. 
 
-For the BQ device, a \texttt{runCommand()} method was implemented. The method takes a shell command as argument, and...
+For the BQ device, a \texttt{runCommand()} method was implemented. The method takes a shell command as argument, and writes it into standard input of a su process.
+\begin{lstlisting}
+public void runCommand(String...commands) {
+	try {
+		Process process = Runtime.getRuntime().exec("su");
+		DataOutputStream dataOutputStream = new DataOutputStream(process.getOutputStream());
+		for(String s : commands) {
+			dataOutputStream.writeBytes(s + "\n");
+			dataOutputStream.flush();
+		}
+		dataOutputStream.writeBytes("exit\n");
+		dataOutputStream.flush();
+		try {
+			process.waitFor();
+		} catch(Exception e) {
+			logToFile(this, e.getMessage());
+		}
+		logToFile(this, "recording saved.");
+		dataOutputStream.close();
+	} catch (Exception e) {
+		logToFile(this, e.getMessage());
+	}
+}
+\end{lstlisting}
+When this method is called with a shell command, the application receives a prompt from Magisk app, givin the option to grant or deny the superuser request as seen in Figure \ref{sureq}.
+\begin{figure}\centering
+	\includegraphics[width=6cm]{sureq}
+	\caption{Magisk prompt to regarding superuser access on the BQ device.}
+	\label{sureq}
+\end{figure}
+A Google Developers page that lists the Android Debug Bridge (adb) shell commands is available \cite{adbshellcmd}. After granting the superuser request, the app functions as normal. I wrote some commands from the adb shell command list in order to try the \texttt{runCommands()} method as seen below:
+\begin{lstlisting}
+runCommand("screenrecord --time-limit 5 "
++ getApplicationContext().getFilesDir() + "/sRec.mp4\n");
+runCommand("screencap "
++ getApplicationContext().getFilesDir() + "/screen.png");
+\end{lstlisting}
+First command is supposed to record the screen for 5 seconds, and the second to take a screenshot. After these actions are completed, a process completion note to the log file is written for each process. The screen.png and sRec.mp4 is supposedly saved to the files folder in the application directory. Device File Explorer in Android Studio confirms this fact. From the file sizes, one can tell that the recording and screenshotting actions are actually being completed. If I change the time limit for the recorder, the sRec.mp4 file increases in size. However, when I try to save the files, copy them, or simply open them, Device File Explorer gives the following error:
+\begin{lstlisting}
+Error opening contents of device file "screen.png": cp: /data/local/tmp/temp7eac41bc-4f0a-4d9d-a6e3-686823b7b656: Permission denied
+\end{lstlisting}
+Interestingly, on Windows File Explorer, these files were invisible, as in they were not set as invisible, they were simply not there. Android's file explorer showed screen.png to be 39.4 KB, and the sRec.mp4 to be 745.4 KB, however when I looked at the same location from the Windows' explorer with the address \texttt{AppData\textbackslash Local\textbackslash Google\textbackslash AndroidStudio2020.3\textbackslash device-explorer
+\textbackslash bq-aquaris\_x\_pro-GF006209\textbackslash data\textbackslash data\textbackslash com.example.appbq\_r\textbackslash files}, the total size of the folder was 56 bytes, the exact same value as the plogs.txt file located in the same place. The \texttt{data/local/tmp} folder was also nowhere to be seen in Windows file explorer, and showed up as empty in Android device file explorer. To mitigate this problem, I wrote \texttt{chmod 777} superuser command to change the permissions in the folder.
+\begin{lstlisting}
+try {
+	Runtime.getRuntime().exec("chmod -R 777 " + getApplicationContext().getFilesDir());
+	Runtime.getRuntime().exec("chmod -R 777 " + "/data/local/tmp");
+} catch (Exception e) {
+	logToFile(this, e.getMessage());
+}
+\end{lstlisting}
+This actions results in a change to permissions somewhat, which can be observed in Figure \ref{permnoch}.
+\begin{figure}\centering
+	\includegraphics[width=\linewidth]{permnoch}
+	\caption{The effect of chmod 777 to folder permissions in Android Device File Explorer.}
+	\label{permnoch}
+\end{figure}
+It results in a permission change for all the folders I specified, but screen.png and sRec.mp4 is unchanged. This persisted even when I made chmod specific to those files. As a last resort, I tried to request \texttt{READ\_EXTERNAL\_STORAGE} permission, but alas, it did not make any difference. In the end, I can say that it is possible to get information from the user with a rooted device, however accessing to those files are another matter.
+
+Unfortunately, the results were the same for the HTC device. Following the same actions did not give a different outcome, and Android device file explorer kept giving the same error for the file.
 
 \chapter{Discussion}
 \label{cha:discussion}
@@ -1257,7 +1316,7 @@ This is my conclusion.
 
 \appendix
 \chapter{Appendix}
-Full program codes, manifest files, and output files can also be found in the following GitHub link.
+Full program codes, manifest and output files can also be found in the following GitHub link.
 
 %\section{AppBQ\_full/MainActivity.java}
 %\lstinputlisting{./code/bqf-MainActivity.java}

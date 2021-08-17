@@ -2382,6 +2382,7 @@
     <bcf:citekey order="42">permButton</bcf:citekey>
     <bcf:citekey order="43">perms442</bcf:citekey>
     <bcf:citekey order="44">changes60</bcf:citekey>
+    <bcf:citekey order="45">adbshellcmd</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -294,9 +294,30 @@
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https:// tinyurl.com/changes60}}
+      \field{howpublished}{\url{https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html}}
       \field{note}{Accessed: 2021-07-20}
       \field{title}{Android 6.0 {C}hanges}
+    \endentry
+    \entry{adbshellcmd}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://developer.android.com/studio/command-line/adb}}
+      \field{note}{Accessed: 2021-08-15}
+      \field{title}{Android {D}ebug {B}ridge}
     \endentry
     \entry{customAndroid}{misc}{}
       \name{author}{1}{}{%
@@ -310,7 +331,7 @@
       \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
@@ -332,7 +353,7 @@
       \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
@@ -499,7 +520,7 @@
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://tinyurl.com/androidmanifestv442}}
+      \field{howpublished}{\url{https://cs.android.com/android/platform/superproject/+/android-4.2.2_r1.2:frameworks/base/core/res/AndroidManifest.xml;bpv=0}}
       \field{note}{Accessed: 2021-07-05}
       \field{title}{Android {C}ode {S}earch, {A}pp{M}anifest.xml for android\-4.2.2\_r1.2}
     \endentry

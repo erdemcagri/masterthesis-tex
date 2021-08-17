@@ -87,14 +87,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.5}Findings on the rooted devices}{66}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Discussion}{67}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Discussion}{71}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Evolution of permissions}{67}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Evolution of permissions}{71}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{68}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Conclusion}{72}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{69}{chapter*.35}%
+\contentsline {chapter}{\nonumberline Bibliography}{73}{chapter*.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{72}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Appendix}{76}{appendix.A}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
