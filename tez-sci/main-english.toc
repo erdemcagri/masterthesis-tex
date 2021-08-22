@@ -91,10 +91,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Evolution of permissions}{71}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{72}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Conclusion}{73}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{73}{chapter*.37}%
+\contentsline {chapter}{\nonumberline Bibliography}{74}{chapter*.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{76}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Appendix}{77}{appendix.A}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

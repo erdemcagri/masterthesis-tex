@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.18)  17 AUG 2021 22:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.18)  22 AUG 2021 18:57
 entering extended mode
 **./main-english.tex
 (main-english.tex
@@ -3315,15 +3315,15 @@ Package pdftex.def Info: graphics/permnoch.png  used on input line 1294.
 chapter 6.
 [71
 
-]
+] [72]
 chapter 7.
-[72
+[73
 
 ]
 chapter without number
-[73
+[74
 
-] [74] [75]
+] [75] [76]
 chapter A.
 \tf@thm=\write10
 \openout10 = `main-english.thm'.
@@ -3331,7 +3331,7 @@ chapter A.
 
 Package nag Warning: 1 complaints in total.
 
-[76
+[77
 
 ]
 \openout2 = `main-english.wrt'.
@@ -3573,9 +3573,9 @@ Package logreq Info: Writing requests to 'main-english.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 81695 strings out of 479173
- 1829204 string characters out of 2870757
- 3243149 words of memory out of 12000000
+ 81696 strings out of 479173
+ 1829211 string characters out of 2870757
+ 3243137 words of memory out of 12000000
  96980 multiletter control sequences out of 15000+600000
  467319 words of font info for 202 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -3587,9 +3587,9 @@ TeX/fonts/enc/dvips/tex-gyre/q-ec.enc}<C:/MiKTeX/fonts/type1/public/inconsolata
 X/fonts/type1/public/tex-gyre/qhvr.pfb><C:/MiKTeX/fonts/type1/public/newtx/ztmb
 .pfb><C:/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/MiKTeX/fonts/type1/public
 /newtx/ztmri.pfb>
-Output written on main-english.pdf (76 pages, 1825884 bytes).
+Output written on main-english.pdf (77 pages, 1829935 bytes).
 PDF statistics:
- 1388 PDF objects out of 1440 (max. 8388607)
- 638 named destinations out of 1000 (max. 500000)
+ 1392 PDF objects out of 1440 (max. 8388607)
+ 639 named destinations out of 1000 (max. 500000)
  47508 words of extra memory for PDF output out of 51595 (max. 10000000)
 

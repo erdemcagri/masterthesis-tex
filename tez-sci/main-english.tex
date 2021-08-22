@@ -38,8 +38,8 @@
   %examiner={Prof.\ Dr.\ Uwe Fessor},
   supervisor={Prof.\ Dr.\ Dirk Westhoff\\
     Prof.\ Dr.\ Daniel Hammer\\},
-  startdate={April 26, 2021},
-  enddate={August 23, 2021}
+  startdate={April, 2021},
+  enddate={August, 2021}
 ]{scientific-thesis-cover}
 
 \input{acronyms}
@@ -1301,10 +1301,14 @@ Unfortunately, the results were the same for the HTC device. Following the same 
 
 \chapter{Discussion}
 \label{cha:discussion}
-In this chapter, findings from the experimentation are discussed.
+In this chapter, findings from the experimentation are discussed. First section will delve into the overall evolution of the permissions. Next section will draw a comparison on the results. 
 
 \section{Evolution of permissions}
+First, a broad observation of the changes is made, then the specific instances of some differences are explored. One main distinction between the version 4.2.2 and 8.1.0 is the permission groups themselves. To begin with, mentioning groups is unheard of in the papers related to permissions in Android before 2015. This, as pointed out before, is caused by the fact that they don't matter at all. I speculate that the reason permission groups are there is for categorical reasons, providing developers a convenience. Overall, the groups were fairly numerous, since permissions such as calendar, user dictionary, bookmarks, alarm, voicemail got their own groups. In total, permissions declared in the manifest file for 4.2.2 had 25 permission groups, and for 8.1.0, this number was only nine. The normal, or install-time permissions were also flagged under these groups for 4.4.2. The groups for 8.1.0 did not include any install-time permissions, since the permission group feature was strictly adapted for requesting runtime permissions.
 
+While the number of permissions increased greatly with new Android releases, it is observed that this change was done on permissions with protection levels system and signature. The  total number of permissions was around 220 for version 4.4.2, and 400 for 8.1.0. In this thesis, the examined protection levels for permissions were normal and dangerous, and no discernable amount could be observed between the versions tested. Naturally some permissions were added and some were deprecated, or even removed, but the number stayed relatively same, with 70 permissions declared for 4.4.2 (24 normal and 46 dangerous) , and 69 permissions declared for 8.1.0 (42 normal, and 27 dangerous). One realizes that the main issue here arises from the change on the balance of power between normal and dangerous permissions. The change is almost mirrored across versions where, as time passed, Android reversed the protection levels of some permissions. 
+
+The change includes some permissions being removed. Namely, such as profile, social stream, user dictionary, history bookmarks, subscribed feeds etc. Android notes that these permissions are removed, but still kept around for backwards compatibility. Thus, their protection levels are switched to normal, regardless of their functionality, and flagged as removed. Depending on what they do, their functionality is either non-functional in the newer versions, or combined with other permissions. The outcome of this was tested with the \texttt{READ\_PROFILE} permission in the AppBQ\_full app. It turned out that \texttt{ContactsContract.Profile} was tied to the \texttt{GET\_ACCOUNTS}. When the \texttt{getProfile()} method from the HTC app was used in the BQ app, it worked as expected. Upon removing the \texttt{GET\_ACCOUNTS} permission, the app crashed. The app also stopped responding when \texttt{READ\_PROFILE} permission was declared. This suggests that the removed permission had no functionality for an app built for version 8.1.0. In this case, the \texttt{AccountManager} and \texttt{ContactsContract.Profile} classes were tied to the same permission, whereas before they were associated with their respective permissions. The implication here is clear, as Zhauniarovic et al. argued, Android permissions moved into a more coarse-grained arrangement over time, when instead, scholars such as Fang et al. were asking for a more fine-grained structure even before version 6.0.
 
 \chapter{Conclusion}
 \label{cha:conclusion}
@@ -1316,7 +1320,7 @@ This is my conclusion.
 
 \appendix
 \chapter{Appendix}
-Full program codes, manifest and output files can also be found in the following GitHub link.
+Full program codes, manifest and output files can also be found in the following GitHub page.
 
 %\section{AppBQ\_full/MainActivity.java}
 %\lstinputlisting{./code/bqf-MainActivity.java}
