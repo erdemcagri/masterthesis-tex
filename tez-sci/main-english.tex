@@ -1310,6 +1310,10 @@ While the number of permissions increased greatly with new Android releases, it 
 
 The change includes some permissions being removed. Namely, such as profile, social stream, user dictionary, history bookmarks, subscribed feeds etc. Android notes that these permissions are removed, but still kept around for backwards compatibility. Thus, their protection levels are switched to normal, regardless of their functionality, and flagged as removed. Depending on what they do, their functionality is either non-functional in the newer versions, or combined with other permissions. The outcome of this was tested with the \texttt{READ\_PROFILE} permission in the AppBQ\_full app. It turned out that \texttt{ContactsContract.Profile} was tied to the \texttt{GET\_ACCOUNTS}. When the \texttt{getProfile()} method from the HTC app was used in the BQ app, it worked as expected. Upon removing the \texttt{GET\_ACCOUNTS} permission, the app crashed. The app also stopped responding when \texttt{READ\_PROFILE} permission was declared. This suggests that the removed permission had no functionality for an app built for version 8.1.0. In this case, the \texttt{AccountManager} and \texttt{ContactsContract.Profile} classes were tied to the same permission, whereas before they were associated with their respective permissions. The implication here is clear, as Zhauniarovic et al. argued, Android permissions moved into a more coarse-grained arrangement over time, when instead, scholars such as Fang et al. were asking for a more fine-grained structure even before version 6.0.
 
+A certain number of permissions were demoted, as in, their protection levels were changed from dangerous to normal, making them install-time permissions. Notable instances include \texttt{INTERNET}, \texttt{BLUETOOTH}, \texttt{BLUETOOTH\_ADMIN}, and \texttt{NFC}. The implications of this will be discussed in the next section.
+
+\section{Comparison of results} 
+
 \chapter{Conclusion}
 \label{cha:conclusion}
 

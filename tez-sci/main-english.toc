@@ -91,6 +91,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Evolution of permissions}{71}{section.6.1}%
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Comparison of results}{72}{section.6.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Conclusion}{73}{chapter.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Bibliography}{74}{chapter*.37}%
