@@ -13,7 +13,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Relationship between issues in Android permission scheme \cite {fang2014}.\relax }}{17}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Vulnerability Disclosure Trend Per Year \cite {huang2015}.\relax }}{19}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Vulnerability Disclosure Trend Per Year \cite {huang2015}.\relax }}{18}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Android OS version distribution in the worldwide market \cite {androidStat}.\relax }}{22}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
@@ -21,7 +21,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Device information pages for the two smartphones (left: BQ Aquaris X Pro, right: HTC One SV).\relax }}{27}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Device information pages for the two smartphones (left: BQ Aquaris X Pro, right: HTC One SV).\relax }}{26}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -40,8 +40,6 @@
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Magisk prompt to regarding superuser access on the BQ device.\relax }}{68}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.8}{\ignorespaces The effect of chmod 777 to folder permissions in Android Device File Explorer.\relax }}{70}{figure.caption.36}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

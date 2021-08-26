@@ -57,27 +57,25 @@
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}Overprivilege}{15}{section.3.1}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Application analysis for pre-2015 Android}{16}{section.3.2}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Network usage, privacy and security}{16}{section.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Application analyses}{16}{section.3.2}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Relationship between issues in Android permission scheme \cite {fang2014}.\relax }}{17}{figure.caption.7}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Vulnerability analysis}{18}{section.3.4}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Vulnerability Disclosure Trend Per Year \cite {huang2015}.\relax }}{19}{figure.caption.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Vulnerability Disclosure Trend Per Year \cite {huang2015}.\relax }}{18}{figure.caption.8}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}Attacks without permissions}{20}{section.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Vulnerability analysis}{18}{section.3.3}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {3.6}OS version distribution}{21}{section.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Attacks without permissions}{20}{section.3.4}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}OS version distribution}{21}{section.3.5}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}Changes with Android 6.0}{21}{section.3.6}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Android OS version distribution in the worldwide market \cite {androidStat}.\relax }}{22}{figure.caption.9}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {3.7}Changes with Android 6.0}{22}{section.3.7}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Groups for dangerous permissions \cite {alepis2017}.\relax }}{23}{figure.caption.10}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology}{26}{chapter.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology}{25}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
@@ -87,15 +85,15 @@
 \@writefile{lopytx}{\defcounter {refsection}{0}\relax }
 \@writefile{lopytx}{\addvspace {10\p@ }}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Test Device Specification}{26}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Test Device Specification}{25}{section.4.1}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Device information pages for the two smartphones (left: BQ Aquaris X Pro, right: HTC One SV).\relax }}{27}{figure.caption.11}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Device information pages for the two smartphones (left: BQ Aquaris X Pro, right: HTC One SV).\relax }}{26}{figure.caption.11}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Application Overview}{27}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Application Overview}{26}{section.4.2}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}The application for the BQ device}{27}{subsection.4.2.1}\protected@file@percent }
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Declared permissions in AppBQ\_full application\relax }}{29}{table.caption.12}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Declared permissions in AppBQ\_full application\relax }}{28}{table.caption.12}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}The application for the HTC device}{30}{subsection.4.2.2}\protected@file@percent }
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
@@ -179,9 +177,9 @@
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
 \@writefile{toc}{\contentsline {section}{\numberline {6.1}Evolution of permissions}{71}{section.6.1}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Comparison of results}{72}{section.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Comparison of results}{73}{section.6.2}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{73}{chapter.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{77}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
@@ -191,17 +189,7 @@
 \@writefile{lopytx}{\defcounter {refsection}{0}\relax }
 \@writefile{lopytx}{\addvspace {10\p@ }}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{74}{chapter*.37}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\defcounter {refsection}{0}\relax }
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lol}{\defcounter {refsection}{0}\relax }
-\@writefile{lol}{\addvspace {10\p@ }}
-\@writefile{lopytx}{\defcounter {refsection}{0}\relax }
-\@writefile{lopytx}{\addvspace {10\p@ }}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix}{77}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{78}{chapter*.37}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
