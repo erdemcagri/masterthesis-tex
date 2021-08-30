@@ -3,96 +3,96 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{8}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}An Overview of the Android Permission Scheme}{10}{chapter.2}%
+\contentsline {chapter}{\numberline {2}An Overview of the Android Permission Scheme}{11}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Pre-2015 Era}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Pre-2015 Era}{11}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Post-2015 Era}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Post-2015 Era}{12}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Install-time permissions}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Install-time permissions}{13}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Runtime permissions}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Runtime permissions}{14}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Special permissions}{13}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Special permissions}{14}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Alternatives to permissions}{13}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Alternatives to permissions}{14}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Custom App Permissions}{14}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.5}Custom App Permissions}{15}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Literature Review}{15}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Literature Review}{16}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Overprivilege}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Overprivilege}{16}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Application analyses}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Application analyses}{17}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Vulnerability analysis}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Vulnerability analysis}{19}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Attacks without permissions}{20}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Attacks without permissions}{21}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}OS version distribution}{21}{section.3.5}%
+\contentsline {section}{\numberline {3.5}OS version distribution}{22}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Changes with Android 6.0}{21}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Changes with Android 6.0}{23}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Methodology}{25}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Methodology}{27}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Test Device Specification}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Test Device Specification}{27}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Application Overview}{26}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Application Overview}{28}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}The application for the BQ device}{27}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Application for the BQ device}{29}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}The application for the HTC device}{30}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}The application for the HTC device}{32}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Experiments}{34}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Experiments}{36}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}AppBQ\_full}{34}{section.5.1}%
+\contentsline {section}{\numberline {5.1}AppBQ\_full}{36}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Permission groups}{35}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.1}Permission groups}{37}{subsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Contacts permission group}{36}{subsubsection*.15}%
+\contentsline {subsubsection}{\nonumberline Contacts permission group}{38}{subsubsection*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Calendar permission group}{38}{subsubsection*.18}%
+\contentsline {subsubsection}{\nonumberline Calendar permission group}{40}{subsubsection*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline SMS permission group}{40}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline SMS permission group}{42}{subsubsection*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Storage permission group}{40}{subsubsection*.22}%
+\contentsline {subsubsection}{\nonumberline Storage permission group}{42}{subsubsection*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Location permission group}{40}{subsubsection*.24}%
+\contentsline {subsubsection}{\nonumberline Location permission group}{42}{subsubsection*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Phone permission group}{42}{subsubsection*.26}%
+\contentsline {subsubsection}{\nonumberline Phone permission group}{44}{subsubsection*.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Microphone, camera, and sensor permission groups}{43}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline Microphone, camera, and sensor permission groups}{45}{subsubsection*.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Normal permissions}{44}{subsubsection*.31}%
+\contentsline {subsubsection}{\nonumberline Normal permissions}{46}{subsubsection*.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Permission grants per group}{46}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.2}Permission grants per group}{48}{subsection.5.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}AppBQ\_none}{46}{section.5.2}%
+\contentsline {section}{\numberline {5.2}AppBQ\_none}{48}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Shared preferences}{47}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.1}Shared preferences}{49}{subsection.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Wi-Fi related findings}{48}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.2}Wi-Fi related findings}{50}{subsection.5.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Bluetooth related findings}{52}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.3}Bluetooth related findings}{54}{subsection.5.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}NFC related findings}{54}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.4}NFC related findings}{56}{subsection.5.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.5}Unique identifiers}{55}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.5}Unique identifiers}{57}{subsection.5.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}AppHTC\_full}{55}{section.5.3}%
+\contentsline {section}{\numberline {5.3}AppHTC\_full}{57}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}AppHTC\_none}{66}{section.5.4}%
+\contentsline {section}{\numberline {5.4}AppHTC\_none}{68}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Findings on the rooted devices}{66}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Findings on the rooted devices}{68}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Discussion}{71}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Discussion}{73}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Evolution of permissions}{71}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Evolution of permissions}{73}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Comparison of results}{73}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Comparison of results}{75}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{77}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Conclusion}{79}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{78}{chapter*.37}%
+\contentsline {chapter}{\nonumberline Bibliography}{81}{chapter*.37}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

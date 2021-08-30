@@ -17,7 +17,7 @@
 \@writefile{lopytx}{\defcounter {refsection}{0}\relax }
 \@writefile{lopytx}{\addvspace {10\p@ }}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}An Overview of the Android Permission Scheme}{10}{chapter.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}An Overview of the Android Permission Scheme}{11}{chapter.2}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
@@ -27,55 +27,25 @@
 \@writefile{lopytx}{\defcounter {refsection}{0}\relax }
 \@writefile{lopytx}{\addvspace {10\p@ }}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}Pre-2015 Era}{10}{section.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Pre-2015 Era}{11}{section.2.1}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Android boot sequence \cite {vidal2018}.\relax }}{11}{figure.caption.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Android boot sequence \cite {vidal2018}.\relax }}{12}{figure.caption.5}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}Post-2015 Era}{11}{section.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Post-2015 Era}{12}{section.2.2}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Install-time permissions}{12}{subsection.2.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Install-time permissions}{13}{subsection.2.2.1}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Runtime permissions}{13}{subsection.2.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Runtime permissions}{14}{subsection.2.2.2}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Special permissions}{13}{subsection.2.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Special permissions}{14}{subsection.2.2.3}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.4}Alternatives to permissions}{13}{subsection.2.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.4}Alternatives to permissions}{14}{subsection.2.2.4}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces High-level workflow for using permissions on Android \cite {devAndroid}.\relax }}{14}{figure.caption.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces High-level workflow for using permissions on Android \cite {devAndroid}.\relax }}{15}{figure.caption.6}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.5}Custom App Permissions}{14}{subsection.2.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.5}Custom App Permissions}{15}{subsection.2.2.5}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Literature Review}{15}{chapter.3}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\defcounter {refsection}{0}\relax }
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lol}{\defcounter {refsection}{0}\relax }
-\@writefile{lol}{\addvspace {10\p@ }}
-\@writefile{lopytx}{\defcounter {refsection}{0}\relax }
-\@writefile{lopytx}{\addvspace {10\p@ }}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Overprivilege}{15}{section.3.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Application analyses}{16}{section.3.2}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Relationship between issues in Android permission scheme \cite {fang2014}.\relax }}{17}{figure.caption.7}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Vulnerability Disclosure Trend Per Year \cite {huang2015}.\relax }}{18}{figure.caption.8}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Vulnerability analysis}{18}{section.3.3}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Attacks without permissions}{20}{section.3.4}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}OS version distribution}{21}{section.3.5}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {3.6}Changes with Android 6.0}{21}{section.3.6}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Android OS version distribution in the worldwide market \cite {androidStat}.\relax }}{22}{figure.caption.9}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Groups for dangerous permissions \cite {alepis2017}.\relax }}{23}{figure.caption.10}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology}{25}{chapter.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Literature Review}{16}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
@@ -85,87 +55,27 @@
 \@writefile{lopytx}{\defcounter {refsection}{0}\relax }
 \@writefile{lopytx}{\addvspace {10\p@ }}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Test Device Specification}{25}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Overprivilege}{16}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Application analyses}{17}{section.3.2}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Device information pages for the two smartphones (left: BQ Aquaris X Pro, right: HTC One SV).\relax }}{26}{figure.caption.11}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Application Overview}{26}{section.4.2}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}The application for the BQ device}{27}{subsection.4.2.1}\protected@file@percent }
-\@writefile{lot}{\defcounter {refsection}{0}\relax }
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Declared permissions in AppBQ\_full application\relax }}{28}{table.caption.12}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}The application for the HTC device}{30}{subsection.4.2.2}\protected@file@percent }
-\@writefile{lot}{\defcounter {refsection}{0}\relax }
-\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Declared permissions in AppHTC\_full application\relax }}{32}{table.4.2}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Experiments}{34}{chapter.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Relationship between issues in Android permission scheme \cite {fang2014}.\relax }}{18}{figure.caption.7}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\defcounter {refsection}{0}\relax }
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lol}{\defcounter {refsection}{0}\relax }
-\@writefile{lol}{\addvspace {10\p@ }}
-\@writefile{lopytx}{\defcounter {refsection}{0}\relax }
-\@writefile{lopytx}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Vulnerability Disclosure Trend Per Year \cite {huang2015}.\relax }}{19}{figure.caption.8}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}AppBQ\_full}{34}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Vulnerability analysis}{19}{section.3.3}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Attacks without permissions}{21}{section.3.4}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}OS version distribution}{22}{section.3.5}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Screens upon installation of the app with full permissions on BQ Aquaris X Pro.\relax }}{35}{figure.caption.13}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Android OS version distribution in the worldwide market \cite {androidStat}.\relax }}{23}{figure.caption.9}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Permission groups}{35}{subsection.5.1.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Contacts permission group}{36}{subsubsection*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}Changes with Android 6.0}{23}{section.3.6}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Text file for the permission log showing user e-mail.\relax }}{37}{figure.caption.16}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Groups for dangerous permissions \cite {alepis2017}.\relax }}{24}{figure.caption.10}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Calendar permission group}{38}{subsubsection*.18}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline SMS permission group}{40}{subsubsection*.20}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Storage permission group}{40}{subsubsection*.22}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Location permission group}{40}{subsubsection*.24}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Phone permission group}{42}{subsubsection*.26}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces The IDE error upon IMEI and IMSI retrieval actions.\relax }}{42}{figure.caption.27}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Microphone, camera, and sensor permission groups}{43}{subsubsection*.29}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Normal permissions}{44}{subsubsection*.31}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Permission grants per group}{46}{subsection.5.1.2}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}AppBQ\_none}{46}{section.5.2}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces BQ application installation screens with no permissions requested.\relax }}{47}{figure.caption.32}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Shared preferences}{47}{subsection.5.2.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Wi-Fi related findings}{48}{subsection.5.2.2}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces The configured networks entry in the shared preferences file.\relax }}{51}{figure.caption.33}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Bluetooth related findings}{52}{subsection.5.2.3}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}NFC related findings}{54}{subsection.5.2.4}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.5}Unique identifiers}{55}{subsection.5.2.5}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}AppHTC\_full}{55}{section.5.3}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces HTC device permission prompt on app install.\relax }}{56}{figure.caption.34}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}AppHTC\_none}{66}{section.5.4}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {5.5}Findings on the rooted devices}{66}{section.5.5}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Magisk prompt to regarding superuser access on the BQ device.\relax }}{68}{figure.caption.35}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces The effect of chmod 777 to folder permissions in Android Device File Explorer.\relax }}{70}{figure.caption.36}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Discussion}{71}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Methodology}{27}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
@@ -175,11 +85,21 @@
 \@writefile{lopytx}{\defcounter {refsection}{0}\relax }
 \@writefile{lopytx}{\addvspace {10\p@ }}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Evolution of permissions}{71}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Test Device Specification}{27}{section.4.1}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Device information pages for the two smartphones (left: BQ Aquaris X Pro, right: HTC One SV).\relax }}{28}{figure.caption.11}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Comparison of results}{73}{section.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Application Overview}{28}{section.4.2}\protected@file@percent }
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{77}{chapter.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Application for the BQ device}{29}{subsection.4.2.1}\protected@file@percent }
+\@writefile{lot}{\defcounter {refsection}{0}\relax }
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Declared permissions in AppBQ\_full application\relax }}{30}{table.caption.12}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}The application for the HTC device}{32}{subsection.4.2.2}\protected@file@percent }
+\@writefile{lot}{\defcounter {refsection}{0}\relax }
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Declared permissions in AppHTC\_full application\relax }}{34}{table.4.2}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Experiments}{36}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
@@ -189,7 +109,87 @@
 \@writefile{lopytx}{\defcounter {refsection}{0}\relax }
 \@writefile{lopytx}{\addvspace {10\p@ }}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }
-\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{78}{chapter*.37}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}AppBQ\_full}{36}{section.5.1}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Screens upon installation of the app with full permissions on BQ Aquaris X Pro.\relax }}{37}{figure.caption.13}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Permission groups}{37}{subsection.5.1.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Contacts permission group}{38}{subsubsection*.15}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Text file for the permission log showing user e-mail.\relax }}{39}{figure.caption.16}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Calendar permission group}{40}{subsubsection*.18}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline SMS permission group}{42}{subsubsection*.20}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Storage permission group}{42}{subsubsection*.22}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Location permission group}{42}{subsubsection*.24}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Phone permission group}{44}{subsubsection*.26}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces The IDE error upon IMEI and IMSI retrieval actions.\relax }}{44}{figure.caption.27}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Microphone, camera, and sensor permission groups}{45}{subsubsection*.29}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsubsection}{\nonumberline Normal permissions}{46}{subsubsection*.31}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Permission grants per group}{48}{subsection.5.1.2}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}AppBQ\_none}{48}{section.5.2}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces BQ application installation screens with no permissions requested.\relax }}{49}{figure.caption.32}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Shared preferences}{49}{subsection.5.2.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Wi-Fi related findings}{50}{subsection.5.2.2}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces The configured networks entry in the shared preferences file.\relax }}{53}{figure.caption.33}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Bluetooth related findings}{54}{subsection.5.2.3}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}NFC related findings}{56}{subsection.5.2.4}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.5}Unique identifiers}{57}{subsection.5.2.5}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}AppHTC\_full}{57}{section.5.3}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces HTC device permission prompt on app install.\relax }}{58}{figure.caption.34}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}AppHTC\_none}{68}{section.5.4}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Findings on the rooted devices}{68}{section.5.5}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Magisk prompt to regarding superuser access on the BQ device.\relax }}{70}{figure.caption.35}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces The effect of chmod 777 to folder permissions in Android Device File Explorer.\relax }}{72}{figure.caption.36}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Discussion}{73}{chapter.6}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\defcounter {refsection}{0}\relax }
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lol}{\defcounter {refsection}{0}\relax }
+\@writefile{lol}{\addvspace {10\p@ }}
+\@writefile{lopytx}{\defcounter {refsection}{0}\relax }
+\@writefile{lopytx}{\addvspace {10\p@ }}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Evolution of permissions}{73}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Comparison of results}{75}{section.6.2}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion}{79}{chapter.7}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\defcounter {refsection}{0}\relax }
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lol}{\defcounter {refsection}{0}\relax }
+\@writefile{lol}{\addvspace {10\p@ }}
+\@writefile{lopytx}{\defcounter {refsection}{0}\relax }
+\@writefile{lopytx}{\addvspace {10\p@ }}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }
+\@writefile{toc}{\contentsline {chapter}{\nonumberline Bibliography}{81}{chapter*.37}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }
